@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="levenshteinDistance" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:37" hostname="LingkeshVerse.local" time="0.066">
+  <properties/>
+  <testcase name="distance for known example" classname="com.strataresolve.ticket.service.DuplicateDetectionServiceTest$LevenshteinDistanceTest" time="0.06"/>
+  <testcase name="distance equals length for empty vs non-empty" classname="com.strataresolve.ticket.service.DuplicateDetectionServiceTest$LevenshteinDistanceTest" time="0.001"/>
+  <testcase name="distance is 1 for single character difference" classname="com.strataresolve.ticket.service.DuplicateDetectionServiceTest$LevenshteinDistanceTest" time="0.002"/>
+  <testcase name="distance is 0 for identical strings" classname="com.strataresolve.ticket.service.DuplicateDetectionServiceTest$LevenshteinDistanceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,35 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# Maven build output (we rebuild in Docker)
+target/
+
+# Frontend (built separately)
+frontend/
+
+# Environment files
+.env
+*.env.local
+.env.example
+
+# Documentation
+*.md
+.kiro/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test databases
+.jqwik-database
+
+# Uploads (runtime data)
+uploads/
+logs/

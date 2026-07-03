@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Valid transitions</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Valid transitions</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.strataresolve.ticket.policy.html">com.strataresolve.ticket.policy</a> &gt; StatusWorkflowEngineTest$ValidTransitions</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">29</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.023s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">UNDER_REVIEW -&gt; CANCELLED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[10]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ASSIGNED -&gt; IN_PROGRESS should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[11]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ASSIGNED -&gt; AWAITING_VENDOR should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[12]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ASSIGNED -&gt; CANCELLED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[13]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">IN_PROGRESS -&gt; AWAITING_VENDOR should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[14]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">IN_PROGRESS -&gt; AWAITING_RESIDENT should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[15]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">IN_PROGRESS -&gt; READY_FOR_VERIFICATION should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[16]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">IN_PROGRESS -&gt; CANCELLED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[17]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">AWAITING_VENDOR -&gt; IN_PROGRESS should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[18]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">AWAITING_VENDOR -&gt; CANCELLED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[19]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">SUBMITTED -&gt; ACKNOWLEDGED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[1]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">AWAITING_RESIDENT -&gt; IN_PROGRESS should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[20]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">AWAITING_RESIDENT -&gt; CANCELLED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[21]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">READY_FOR_VERIFICATION -&gt; RESOLVED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[22]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">READY_FOR_VERIFICATION -&gt; IN_PROGRESS should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[23]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">RESOLVED -&gt; CLOSED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[24]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">RESOLVED -&gt; REOPENED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[25]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">CLOSED -&gt; REOPENED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[26]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">REOPENED -&gt; ACKNOWLEDGED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[27]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">REOPENED -&gt; ASSIGNED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[28]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">REOPENED -&gt; CANCELLED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[29]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">SUBMITTED -&gt; REJECTED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[2]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">SUBMITTED -&gt; CANCELLED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[3]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ACKNOWLEDGED -&gt; UNDER_REVIEW should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[4]</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ACKNOWLEDGED -&gt; ASSIGNED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[5]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ACKNOWLEDGED -&gt; REJECTED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[6]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">ACKNOWLEDGED -&gt; CANCELLED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[7]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">UNDER_REVIEW -&gt; ASSIGNED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[8]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">UNDER_REVIEW -&gt; REJECTED should be allowed</td>
+<td class="success">shouldAllowValidTransitions(TicketStatus, TicketStatus)[9]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.10.2</a> at 1 Jul 2026, 10:14:41 pm</p>
+</div>
+</div>
+</body>
+</html>

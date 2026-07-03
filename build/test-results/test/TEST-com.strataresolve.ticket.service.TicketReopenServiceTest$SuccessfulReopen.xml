@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Successful Reopen" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:38" hostname="LingkeshVerse.local" time="0.014">
+  <properties/>
+  <testcase name="should record status history with reason on reopen" classname="com.strataresolve.ticket.service.TicketReopenServiceTest$SuccessfulReopen" time="0.003"/>
+  <testcase name="should reopen a CLOSED ticket within time window" classname="com.strataresolve.ticket.service.TicketReopenServiceTest$SuccessfulReopen" time="0.004"/>
+  <testcase name="should reopen a RESOLVED ticket within time window" classname="com.strataresolve.ticket.service.TicketReopenServiceTest$SuccessfulReopen" time="0.003"/>
+  <testcase name="should publish StatusChangedEvent with correct details" classname="com.strataresolve.ticket.service.TicketReopenServiceTest$SuccessfulReopen" time="0.003"/>
+  <system-out><![CDATA[22:14:38.004 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket 0f9cdd03-8ae2-4dc3-aa3a-a7399a5a179e reopened from CLOSED by user 8040be29-e241-4aa4-9bd5-9755372778b6. Reason: The leak came back
+22:14:38.008 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket 81ad4a92-8944-4d9b-8a1b-9865d9ab9a52 reopened from CLOSED by user 96ce36dc-cfa1-4994-b37b-0dcb4fe8e64a. Reason: Issue not fully resolved
+22:14:38.012 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket bd92d8ce-efcf-4ca2-939b-c3dc157722d6 reopened from RESOLVED by user 01a7f7b9-fd41-4068-97ef-9584fb2d6958. Reason: Work was incomplete
+22:14:38.015 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket 8b53f392-1490-40a6-ad7c-277222a331ba reopened from CLOSED by user 91d99e69-f4d9-4e8f-8065-b005298ed52c. Reason: Problem recurred
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

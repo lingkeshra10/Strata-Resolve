@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StatusHistory Recording" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:38" hostname="LingkeshVerse.local" time="0.003">
+  <properties/>
+  <testcase name="should record StatusHistory entry with previous status, new status, acting user, and reason" classname="com.strataresolve.ticket.service.TicketServiceTransitionTest$StatusHistoryRecording" time="0.003"/>
+  <system-out><![CDATA[22:14:38.097 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket e52705fc-9d26-4522-aa91-7e893797be6a transitioned from SUBMITTED to ACKNOWLEDGED by user 80dda18f-e29a-46c8-86f8-fd75422307be
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

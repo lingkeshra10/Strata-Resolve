@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.vendor.service.WorkOrderServiceTest$AcceptTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:38" hostname="LingkeshVerse.local" time="0.006">
+  <properties/>
+  <testcase name="accept_withNonExistentWorkOrder_throwsException()" classname="com.strataresolve.vendor.service.WorkOrderServiceTest$AcceptTests" time="0.002"/>
+  <testcase name="accept_fromCompletedStatus_throwsException()" classname="com.strataresolve.vendor.service.WorkOrderServiceTest$AcceptTests" time="0.002"/>
+  <testcase name="accept_fromCreatedStatus_succeeds()" classname="com.strataresolve.vendor.service.WorkOrderServiceTest$AcceptTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

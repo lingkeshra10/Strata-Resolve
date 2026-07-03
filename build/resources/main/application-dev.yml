@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:strataresolve}
+    username: ${DB_USERNAME:strataresolve}
+    password: ${DB_PASSWORD:strataresolve}
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+app:
+  jwt:
+    secret: dev-secret-key-that-is-at-least-32-bytes-long-for-hmac-sha256
+
+logging:
+  level:
+    com.strataresolve: DEBUG
+    org.springframework.security: DEBUG

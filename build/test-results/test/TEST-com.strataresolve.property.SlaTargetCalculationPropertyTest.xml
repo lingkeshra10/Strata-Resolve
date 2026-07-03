@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.property.SlaTargetCalculationPropertyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:41" hostname="LingkeshVerse.local" time="0.056">
+  <properties/>
+  <testcase name="acknowledgementDueAtEqualsReferencePlusAckHoursInTimezone" classname="com.strataresolve.property.SlaTargetCalculationPropertyTest" time="0.018"/>
+  <testcase name="resolutionDueAtEqualsReferencePlusResHoursInTimezone" classname="com.strataresolve.property.SlaTargetCalculationPropertyTest" time="0.012"/>
+  <testcase name="computationIsConsistentAcrossTimezones" classname="com.strataresolve.property.SlaTargetCalculationPropertyTest" time="0.016"/>
+  <testcase name="resolutionDueIsAfterOrEqualAckDueWhenResHoursGreaterOrEqual" classname="com.strataresolve.property.SlaTargetCalculationPropertyTest" time="0.008"/>
+  <system-out><![CDATA[timestamp = 2026-07-01T22:14:41.358341, SlaTargetCalculationPropertyTest:acknowledgementDueAtEqualsReferencePlusAckHoursInTimezone = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 128        | # of all combined edge cases
+edge-cases#tried = 16         | # of edge cases tried in current run
+seed = 9087307650011319112    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.370978, SlaTargetCalculationPropertyTest:resolutionDueAtEqualsReferencePlusResHoursInTimezone = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 128        | # of all combined edge cases
+edge-cases#tried = 10         | # of edge cases tried in current run
+seed = -7015728455359803210   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.387987, SlaTargetCalculationPropertyTest:computationIsConsistentAcrossTimezones = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 128        | # of all combined edge cases
+edge-cases#tried = 16         | # of edge cases tried in current run
+seed = 1040399721275814701    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.396667, SlaTargetCalculationPropertyTest:resolutionDueIsAfterOrEqualAckDueWhenResHoursGreaterOrEqual = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 32         | # of all combined edge cases
+edge-cases#tried = 19         | # of edge cases tried in current run
+seed = -241842628037667171    | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[Jul 01, 2026 10:14:41 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 128 generated cases.
+Jul 01, 2026 10:14:41 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 128 generated cases.
+Jul 01, 2026 10:14:41 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 128 generated cases.
+]]></system-err>
+</testsuite>

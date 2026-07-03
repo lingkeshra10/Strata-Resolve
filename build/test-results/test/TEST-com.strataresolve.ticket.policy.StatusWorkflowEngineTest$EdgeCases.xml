@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Edge cases" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.007">
+  <properties/>
+  <testcase name="isTransitionAllowed returns false for null target status" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$EdgeCases" time="0.0"/>
+  <testcase name="isTransitionAllowed returns false for same status" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$EdgeCases" time="0.0"/>
+  <testcase name="should reject null current status" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$EdgeCases" time="0.001"/>
+  <testcase name="should reject null target status" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$EdgeCases" time="0.001"/>
+  <testcase name="isTransitionAllowed returns false for null current status" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$EdgeCases" time="0.001"/>
+  <testcase name="should reject same-status transition" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$EdgeCases" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

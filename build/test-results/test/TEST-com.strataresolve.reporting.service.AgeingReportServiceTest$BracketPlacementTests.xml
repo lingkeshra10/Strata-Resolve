@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bracket Placement" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:35" hostname="LingkeshVerse.local" time="0.045">
+  <properties/>
+  <testcase name="should place ticket created 100 days ago in over-30 bracket" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests" time="0.003"/>
+  <testcase name="should place ticket created today (0 days) in 0-3 bracket" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests" time="0.004"/>
+  <testcase name="should place ticket created 4 days ago in 4-7 bracket" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests" time="0.003"/>
+  <testcase name="should place ticket created 14 days ago in 8-14 bracket" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests" time="0.004"/>
+  <testcase name="should place ticket created 8 days ago in 8-14 bracket" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests" time="0.002"/>
+  <testcase name="should place ticket created 15 days ago in 15-30 bracket" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests" time="0.004"/>
+  <testcase name="should place ticket created 3 days ago in 0-3 bracket" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests" time="0.003"/>
+  <testcase name="should place ticket created 30 days ago in 15-30 bracket" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests" time="0.003"/>
+  <testcase name="should place ticket created 7 days ago in 4-7 bracket" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests" time="0.004"/>
+  <testcase name="should place ticket created 31 days ago in over-30 bracket" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

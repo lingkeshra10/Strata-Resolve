@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.property.SlaPolicyFallbackPropertyTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:41" hostname="LingkeshVerse.local" time="0.132">
+  <properties/>
+  <testcase name="exactMatchPolicyTakesPrecedenceOverAllFallbacks" classname="com.strataresolve.property.SlaPolicyFallbackPropertyTest" time="0.024"/>
+  <testcase name="resolutionChainIsDeterministic" classname="com.strataresolve.property.SlaPolicyFallbackPropertyTest" time="0.029"/>
+  <testcase name="categoryLevelDefaultUsedWhenNoExactMatch" classname="com.strataresolve.property.SlaPolicyFallbackPropertyTest" time="0.024"/>
+  <testcase name="emptyResultWhenNoPolicyExistsAtAnyLevel" classname="com.strataresolve.property.SlaPolicyFallbackPropertyTest" time="0.015"/>
+  <testcase name="propertyDefaultAppliedWhenNoSpecificPolicyExists" classname="com.strataresolve.property.SlaPolicyFallbackPropertyTest" time="0.014"/>
+  <testcase name="priorityLevelDefaultUsedWhenNoExactOrCategoryMatch" classname="com.strataresolve.property.SlaPolicyFallbackPropertyTest" time="0.025"/>
+  <system-out><![CDATA[timestamp = 2026-07-01T22:14:41.230671, SlaPolicyFallbackPropertyTest:exactMatchPolicyTakesPrecedenceOverAllFallbacks = 
+                              |-----------------------jqwik-----------------------
+tries = 60                    | # of calls to property
+checks = 60                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = 2490688770641080899    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.259642, SlaPolicyFallbackPropertyTest:resolutionChainIsDeterministic = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 64         | # of all combined edge cases
+edge-cases#tried = 12         | # of edge cases tried in current run
+seed = 8093069692705636812    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.283620, SlaPolicyFallbackPropertyTest:categoryLevelDefaultUsedWhenNoExactMatch = 
+                              |-----------------------jqwik-----------------------
+tries = 60                    | # of calls to property
+checks = 60                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = 3677382285254119934    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.299036, SlaPolicyFallbackPropertyTest:emptyResultWhenNoPolicyExistsAtAnyLevel = 
+                              |-----------------------jqwik-----------------------
+tries = 60                    | # of calls to property
+checks = 60                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -1577307791445146349   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.313386, SlaPolicyFallbackPropertyTest:propertyDefaultAppliedWhenNoSpecificPolicyExists = 
+                              |-----------------------jqwik-----------------------
+tries = 60                    | # of calls to property
+checks = 60                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = 7951615919331331810    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.339113, SlaPolicyFallbackPropertyTest:priorityLevelDefaultUsedWhenNoExactOrCategoryMatch = 
+                              |-----------------------jqwik-----------------------
+tries = 60                    | # of calls to property
+checks = 60                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -4175273273774611470   | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

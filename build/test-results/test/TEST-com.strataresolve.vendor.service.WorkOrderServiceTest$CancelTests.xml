@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.vendor.service.WorkOrderServiceTest$CancelTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:38" hostname="LingkeshVerse.local" time="0.013">
+  <properties/>
+  <testcase name="cancel_fromCompletedStatus_throwsException()" classname="com.strataresolve.vendor.service.WorkOrderServiceTest$CancelTests" time="0.002"/>
+  <testcase name="cancel_fromCancelledStatus_throwsException()" classname="com.strataresolve.vendor.service.WorkOrderServiceTest$CancelTests" time="0.002"/>
+  <testcase name="cancel_fromCreatedStatus_succeeds()" classname="com.strataresolve.vendor.service.WorkOrderServiceTest$CancelTests" time="0.003"/>
+  <testcase name="cancel_fromAcceptedStatus_succeeds()" classname="com.strataresolve.vendor.service.WorkOrderServiceTest$CancelTests" time="0.001"/>
+  <testcase name="cancel_fromInProgressStatus_succeeds()" classname="com.strataresolve.vendor.service.WorkOrderServiceTest$CancelTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

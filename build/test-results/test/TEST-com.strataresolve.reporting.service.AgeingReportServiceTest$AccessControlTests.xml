@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Access Control" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:35" hostname="LingkeshVerse.local" time="0.019">
+  <properties/>
+  <testcase name="should allow access for Property Manager" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AccessControlTests" time="0.003"/>
+  <testcase name="should deny access for user with no active membership" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AccessControlTests" time="0.002"/>
+  <testcase name="should deny access for Technician" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AccessControlTests" time="0.003"/>
+  <testcase name="should deny access for Resident" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AccessControlTests" time="0.002"/>
+  <testcase name="should allow access for Committee Member" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AccessControlTests" time="0.003"/>
+  <testcase name="should deny access for Vendor Admin" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AccessControlTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

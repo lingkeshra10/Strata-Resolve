@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.property.SlaBreachDetectionPropertyTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:41" hostname="LingkeshVerse.local" time="0.051">
+  <properties/>
+  <testcase name="onTrackWhenResolvedEvenIfResolutionDeadlinePassed" classname="com.strataresolve.property.SlaBreachDetectionPropertyTest" time="0.011"/>
+  <testcase name="onTrackWhenNoDeadlinesExceeded" classname="com.strataresolve.property.SlaBreachDetectionPropertyTest" time="0.01"/>
+  <testcase name="ackBreachedWhenOnlyAcknowledgementDeadlineExceeded" classname="com.strataresolve.property.SlaBreachDetectionPropertyTest" time="0.009"/>
+  <testcase name="bothBreachedWhenBothDeadlinesExceeded" classname="com.strataresolve.property.SlaBreachDetectionPropertyTest" time="0.007"/>
+  <testcase name="resolutionBreachedWhenOnlyResolutionDeadlineExceeded" classname="com.strataresolve.property.SlaBreachDetectionPropertyTest" time="0.005"/>
+  <testcase name="onTrackWhenAcknowledgedEvenIfAckDeadlinePassed" classname="com.strataresolve.property.SlaBreachDetectionPropertyTest" time="0.006"/>
+  <system-out><![CDATA[timestamp = 2026-07-01T22:14:41.165225, SlaBreachDetectionPropertyTest:onTrackWhenResolvedEvenIfResolutionDeadlinePassed = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 64         | # of all combined edge cases
+edge-cases#tried = 12         | # of edge cases tried in current run
+seed = 1365533192695948372    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.175170, SlaBreachDetectionPropertyTest:onTrackWhenNoDeadlinesExceeded = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 64         | # of all combined edge cases
+edge-cases#tried = 15         | # of edge cases tried in current run
+seed = -8857914517523202002   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.184425, SlaBreachDetectionPropertyTest:ackBreachedWhenOnlyAcknowledgementDeadlineExceeded = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 64         | # of all combined edge cases
+edge-cases#tried = 22         | # of edge cases tried in current run
+seed = 196744860851817622     | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.192911, SlaBreachDetectionPropertyTest:bothBreachedWhenBothDeadlinesExceeded = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 64         | # of all combined edge cases
+edge-cases#tried = 21         | # of edge cases tried in current run
+seed = -3528138156774826299   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.198954, SlaBreachDetectionPropertyTest:resolutionBreachedWhenOnlyResolutionDeadlineExceeded = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 64         | # of all combined edge cases
+edge-cases#tried = 20         | # of edge cases tried in current run
+seed = -4974617163427143771   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.205792, SlaBreachDetectionPropertyTest:onTrackWhenAcknowledgedEvenIfAckDeadlinePassed = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 64         | # of all combined edge cases
+edge-cases#tried = 13         | # of edge cases tried in current run
+seed = -6525454709187042084   | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

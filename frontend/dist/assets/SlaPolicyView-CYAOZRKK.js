@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./index-B6PQ97Fr.js";var i={class:`p-6`},a=n({__name:`SlaPolicyView`,setup(n){return(n,a)=>(e(),t(`div`,i,[...a[0]||=[r(`h1`,{class:`text-2xl font-bold`},`SLA Policy Management`,-1)]]))}});export{a as default};

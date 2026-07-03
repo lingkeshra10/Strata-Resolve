@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Invalid Status Rejection" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:37" hostname="LingkeshVerse.local" time="0.01">
+  <properties/>
+  <testcase name="should reject reopen when ticket is in SUBMITTED status" classname="com.strataresolve.ticket.service.TicketReopenServiceTest$InvalidStatusRejection" time="0.004"/>
+  <testcase name="should reject reopen when ticket is in CANCELLED status" classname="com.strataresolve.ticket.service.TicketReopenServiceTest$InvalidStatusRejection" time="0.002"/>
+  <testcase name="should reject reopen when ticket is in IN_PROGRESS status" classname="com.strataresolve.ticket.service.TicketReopenServiceTest$InvalidStatusRejection" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

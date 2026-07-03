@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - NotificationProcessorScheduler</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>NotificationProcessorScheduler</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.strataresolve.notification.service.html">com.strataresolve.notification.service</a> &gt; NotificationProcessorSchedulerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.179s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">processOutbox should do nothing when no pending notifications exist</td>
+<td class="success">processOutboxShouldDoNothingWhenEmpty()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">processOutbox should mark notification as FAILED when recipient user not found</td>
+<td class="success">processOutboxShouldFailWhenRecipientNotFound()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">processOutbox should mark notification as FAILED when max attempts reached</td>
+<td class="success">processOutboxShouldMarkFailedAtMaxAttempts()</td>
+<td class="success">0.154s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">processOutbox should send email and mark notification as SENT on success</td>
+<td class="success">processOutboxShouldMarkSentOnSuccess()</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">processOutbox should process multiple notifications independently</td>
+<td class="success">processOutboxShouldProcessMultipleNotifications()</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">processOutbox should increment attempt and schedule retry on email failure</td>
+<td class="success">processOutboxShouldRetryOnFailure()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>22:14:34.925 [Test worker] INFO com.strataresolve.notification.service.NotificationProcessorScheduler -- Processing 1 pending notification(s)
+22:14:34.927 [Test worker] WARN com.strataresolve.notification.service.NotificationProcessorScheduler -- Failed to deliver notification cef272a9-a2b0-4838-bce1-39945fb96127 to fail@example.com (attempt 5): SMTP error
+22:14:34.931 [Test worker] INFO com.strataresolve.notification.service.NotificationProcessorScheduler -- Processing 1 pending notification(s)
+22:14:34.931 [Test worker] WARN com.strataresolve.notification.service.NotificationProcessorScheduler -- Recipient user 9fbabdc1-50ae-48c5-b82d-475a911a0382 not found for notification 98cbde1d-5a31-4280-8417-ab31cdc855e5. Marking as failed.
+22:14:34.938 [Test worker] INFO com.strataresolve.notification.service.NotificationProcessorScheduler -- Processing 2 pending notification(s)
+22:14:34.939 [Test worker] WARN com.strataresolve.notification.service.NotificationProcessorScheduler -- Failed to deliver notification 6db0b4fd-c3a1-44cf-b538-b9765737f11a to user2@example.com (attempt 1): SMTP error
+22:14:34.945 [Test worker] INFO com.strataresolve.notification.service.NotificationProcessorScheduler -- Processing 1 pending notification(s)
+22:14:34.949 [Test worker] INFO com.strataresolve.notification.service.NotificationProcessorScheduler -- Processing 1 pending notification(s)
+22:14:34.951 [Test worker] WARN com.strataresolve.notification.service.NotificationProcessorScheduler -- Failed to deliver notification 6ca38ba4-940b-4043-bd34-3f3c5c4c0bb0 to fail@example.com (attempt 1): SMTP error
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.10.2</a> at 1 Jul 2026, 10:14:41 pm</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Non-timestamp transitions" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:38" hostname="LingkeshVerse.local" time="0.006">
+  <properties/>
+  <testcase name="should transition to CLOSED without setting timestamps" classname="com.strataresolve.ticket.service.TicketServiceTransitionTest$NonTimestampTransitions" time="0.003"/>
+  <testcase name="should not set acknowledgedAt when transitioning to other statuses" classname="com.strataresolve.ticket.service.TicketServiceTransitionTest$NonTimestampTransitions" time="0.002"/>
+  <system-out><![CDATA[22:14:38.060 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket 729145e0-03b1-4165-8860-0bb48abf7e62 transitioned from RESOLVED to CLOSED by user 1438764c-c23b-4d81-b7e9-5ddc9b6a6000
+22:14:38.063 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket c40e5ac1-f63d-43a2-89e2-db6d52dc0b8b transitioned from ACKNOWLEDGED to ASSIGNED by user 5fab8b35-aeec-4ee3-8f9a-31c819e12adc
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

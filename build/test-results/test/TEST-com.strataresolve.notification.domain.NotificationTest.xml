@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Notification Entity" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:34" hostname="LingkeshVerse.local" time="0.015">
+  <properties/>
+  <testcase name="markSent should set delivery status to SENT and record sent_at timestamp" classname="com.strataresolve.notification.domain.NotificationTest" time="0.007"/>
+  <testcase name="default builder values should set PENDING status and zero attempt count" classname="com.strataresolve.notification.domain.NotificationTest" time="0.001"/>
+  <testcase name="incrementAttemptWithBackoff should increment attempt count and schedule next attempt" classname="com.strataresolve.notification.domain.NotificationTest" time="0.001"/>
+  <testcase name="incrementAttemptWithBackoff should mark FAILED when max attempts reached" classname="com.strataresolve.notification.domain.NotificationTest" time="0.001"/>
+  <testcase name="incrementAttemptWithBackoff should use exponential backoff" classname="com.strataresolve.notification.domain.NotificationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

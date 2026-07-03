@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.property.ActivityHistoryPropertyTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:38" hostname="LingkeshVerse.local" time="1.119">
+  <properties/>
+  <testcase name="activityHistoryIsComplete" classname="com.strataresolve.property.ActivityHistoryPropertyTest" time="0.651"/>
+  <testcase name="everyActivityEntryHasNonNullAuthorAndTimestamp" classname="com.strataresolve.property.ActivityHistoryPropertyTest" time="0.256"/>
+  <testcase name="activityHistoryIsReturnedInChronologicalOrder" classname="com.strataresolve.property.ActivityHistoryPropertyTest" time="0.21"/>
+  <system-out><![CDATA[timestamp = 2026-07-01T22:14:39.224543, ActivityHistoryPropertyTest:activityHistoryIsComplete = 
+                              |-----------------------jqwik-----------------------
+tries = 150                   | # of calls to property
+checks = 150                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 183        | # of all combined edge cases
+edge-cases#tried = 24         | # of edge cases tried in current run
+seed = 6677651813025386661    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:39.480743, ActivityHistoryPropertyTest:everyActivityEntryHasNonNullAuthorAndTimestamp = 
+                              |-----------------------jqwik-----------------------
+tries = 150                   | # of calls to property
+checks = 150                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 183        | # of all combined edge cases
+edge-cases#tried = 25         | # of edge cases tried in current run
+seed = 6929515516846983701    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:39.695193, ActivityHistoryPropertyTest:activityHistoryIsReturnedInChronologicalOrder = 
+                              |-----------------------jqwik-----------------------
+tries = 150                   | # of calls to property
+checks = 150                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 183        | # of all combined edge cases
+edge-cases#tried = 24         | # of edge cases tried in current run
+seed = -5121937976716871653   | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[Jul 01, 2026 10:14:38 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 183 generated cases.
+Jul 01, 2026 10:14:39 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 183 generated cases.
+Jul 01, 2026 10:14:39 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 183 generated cases.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.shared.tenant.TenantContextTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.007">
+  <properties/>
+  <testcase name="isSet_returnsFalse_afterClear()" classname="com.strataresolve.shared.tenant.TenantContextTest" time="0.001"/>
+  <testcase name="getCurrentPropertyId_returnsNull_whenNotSet()" classname="com.strataresolve.shared.tenant.TenantContextTest" time="0.002"/>
+  <testcase name="isSet_returnsTrue_whenSet()" classname="com.strataresolve.shared.tenant.TenantContextTest" time="0.001"/>
+  <testcase name="clear_removesStoredValue()" classname="com.strataresolve.shared.tenant.TenantContextTest" time="0.001"/>
+  <testcase name="isSet_returnsFalse_whenNotSet()" classname="com.strataresolve.shared.tenant.TenantContextTest" time="0.0"/>
+  <testcase name="setCurrentPropertyId_storesValue()" classname="com.strataresolve.shared.tenant.TenantContextTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

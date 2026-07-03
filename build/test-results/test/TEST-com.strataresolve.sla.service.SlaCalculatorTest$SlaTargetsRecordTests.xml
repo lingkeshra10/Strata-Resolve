@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SlaTargets record" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.043">
+  <properties/>
+  <testcase name="hasTargets() should return true when both values are set" classname="com.strataresolve.sla.service.SlaCalculatorTest$SlaTargetsRecordTests" time="0.039"/>
+  <testcase name="none() should return targets with null values" classname="com.strataresolve.sla.service.SlaCalculatorTest$SlaTargetsRecordTests" time="0.001"/>
+  <testcase name="hasTargets() should return false when acknowledgement is null" classname="com.strataresolve.sla.service.SlaCalculatorTest$SlaTargetsRecordTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

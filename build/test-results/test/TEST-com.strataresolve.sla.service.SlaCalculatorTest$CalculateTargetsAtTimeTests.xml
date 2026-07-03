@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calculateTargetsAtTime" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.008">
+  <properties/>
+  <testcase name="should handle DST transitions correctly with calendar hours" classname="com.strataresolve.sla.service.SlaCalculatorTest$CalculateTargetsAtTimeTests" time="0.005"/>
+  <testcase name="should calculate targets from a specific reference time" classname="com.strataresolve.sla.service.SlaCalculatorTest$CalculateTargetsAtTimeTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

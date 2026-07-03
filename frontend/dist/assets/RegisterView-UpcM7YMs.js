@@ -1,0 +1,1 @@
+import{i as e,n as t,r as n,t as r}from"./index-B6PQ97Fr.js";var i={class:`flex items-center justify-center min-h-screen`},a=n({__name:`RegisterView`,setup(n){return(n,a)=>(e(),t(`div`,i,[...a[0]||=[r(`h1`,{class:`text-2xl font-bold`},`Register`,-1)]]))}});export{a as default};

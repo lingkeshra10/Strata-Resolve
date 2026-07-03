@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.shared.tenant.TenantContextFilterTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.467">
+  <properties/>
+  <testcase name="shouldNotFilter_returnsTrue_forActuatorEndpoints()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.4"/>
+  <testcase name="extractPropertyId_returnsNull_whenPathDoesNotMatch()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.001"/>
+  <testcase name="doFilter_extractsPropertyId_fromPathParameter()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.004"/>
+  <testcase name="doFilter_throwsAccessDenied_whenNoActiveMembership()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.004"/>
+  <testcase name="shouldNotFilter_returnsTrue_forAuthEndpoints()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.002"/>
+  <testcase name="doFilter_throwsAuthenticationRequired_whenNoAuthentication()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.003"/>
+  <testcase name="doFilter_extractsPropertyId_fromHeader()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.012"/>
+  <testcase name="shouldNotFilter_returnsFalse_forApiEndpoints()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.013"/>
+  <testcase name="doFilter_prefersPathParameter_overHeader()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.007"/>
+  <testcase name="doFilter_passesThrough_whenHeaderContainsInvalidUuid()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.001"/>
+  <testcase name="doFilter_clearsContext_onException()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.005"/>
+  <testcase name="doFilter_clearsContext_afterSuccessfulRequest()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.004"/>
+  <testcase name="doFilter_passesThrough_whenNoPropertyIdPresent()" classname="com.strataresolve.shared.tenant.TenantContextFilterTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

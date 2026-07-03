@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TicketService - Submission Logic" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:38" hostname="LingkeshVerse.local" time="0.038">
+  <properties/>
+  <testcase name="should reject submission when property not found" classname="com.strataresolve.ticket.service.TicketServiceTest" time="0.004"/>
+  <testcase name="should calculate SLA targets based on property timezone" classname="com.strataresolve.ticket.service.TicketServiceTest" time="0.008"/>
+  <testcase name="should publish TicketCreatedEvent on successful submission" classname="com.strataresolve.ticket.service.TicketServiceTest" time="0.007"/>
+  <testcase name="should use default priority NORMAL when no suggested priority is provided" classname="com.strataresolve.ticket.service.TicketServiceTest" time="0.004"/>
+  <testcase name="should submit ticket successfully with generated reference number" classname="com.strataresolve.ticket.service.TicketServiceTest" time="0.003"/>
+  <testcase name="should reject submission when resident has no linked unit" classname="com.strataresolve.ticket.service.TicketServiceTest" time="0.002"/>
+  <testcase name="should reject submission when property is inactive" classname="com.strataresolve.ticket.service.TicketServiceTest" time="0.004"/>
+  <testcase name="should record initial status history entry on submission" classname="com.strataresolve.ticket.service.TicketServiceTest" time="0.003"/>
+  <system-out><![CDATA[22:14:38.030 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket submitted: 67a6050b-666d-4f07-a57b-fde83a3c931a (ref: SR-2025-000005) for property 4a1b2737-45b5-4ea5-9e7a-e391478ff3d4 by user 6b4f3cf9-7fcf-40c3-992c-173c1c95c1b5
+22:14:38.036 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket submitted: dcfaea84-0fdc-449c-83e7-e33c95eb51f0 (ref: SR-2025-000003) for property 3a5b2b5b-11de-4b8f-a16e-16ed7661b0c8 by user a0e6b87f-e68a-452c-81cc-36e71622638b
+22:14:38.041 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket submitted: 388ae2aa-9ffb-44cf-9a1a-d63059d17988 (ref: SR-2025-000002) for property eaf16c0a-dc1a-49f2-a6e6-b3b9d65a81b4 by user 298de075-6c00-4255-b637-522109d45878
+22:14:38.045 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket submitted: 4c8a1723-c2ac-4027-8de3-f0a34b286049 (ref: SR-2025-000001) for property 38bfb12b-aadd-4560-a853-673d24a16cbd by user a21b85c8-c2ce-4152-a7a5-1be622cd890c
+22:14:38.055 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket submitted: 5e0213c6-4934-4412-8d5c-6378792d6649 (ref: SR-2025-000004) for property d6f59873-13e5-4292-b273-3d1708934d2f by user b715d07f-a2f8-4d70-a110-e4e3f1604ff7
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

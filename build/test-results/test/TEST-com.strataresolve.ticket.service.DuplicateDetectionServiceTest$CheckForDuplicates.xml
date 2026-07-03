@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="checkForDuplicates" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:37" hostname="LingkeshVerse.local" time="0.015">
+  <properties/>
+  <testcase name="does not flag when title is sufficiently different" classname="com.strataresolve.ticket.service.DuplicateDetectionServiceTest$CheckForDuplicates" time="0.002"/>
+  <testcase name="detects duplicate when title is very similar" classname="com.strataresolve.ticket.service.DuplicateDetectionServiceTest$CheckForDuplicates" time="0.003"/>
+  <testcase name="detects duplicate with identical title" classname="com.strataresolve.ticket.service.DuplicateDetectionServiceTest$CheckForDuplicates" time="0.002"/>
+  <testcase name="detects multiple potential duplicates" classname="com.strataresolve.ticket.service.DuplicateDetectionServiceTest$CheckForDuplicates" time="0.002"/>
+  <testcase name="detects duplicate when location is null on both" classname="com.strataresolve.ticket.service.DuplicateDetectionServiceTest$CheckForDuplicates" time="0.002"/>
+  <testcase name="returns no duplicates when no candidates found" classname="com.strataresolve.ticket.service.DuplicateDetectionServiceTest$CheckForDuplicates" time="0.001"/>
+  <system-out><![CDATA[22:14:37.650 [Test worker] INFO com.strataresolve.ticket.service.DuplicateDetectionService -- Detected 1 potential duplicate(s) for new ticket in property c546378d-d28c-442d-8d75-ab7f36fc0cb8 with title 'Leaking pipe in the kitchen'
+22:14:37.652 [Test worker] INFO com.strataresolve.ticket.service.DuplicateDetectionService -- Detected 1 potential duplicate(s) for new ticket in property c546378d-d28c-442d-8d75-ab7f36fc0cb8 with title 'Water leak in bathroom'
+22:14:37.655 [Test worker] INFO com.strataresolve.ticket.service.DuplicateDetectionService -- Detected 2 potential duplicate(s) for new ticket in property c546378d-d28c-442d-8d75-ab7f36fc0cb8 with title 'Leaking pipe in kitchen'
+22:14:37.657 [Test worker] INFO com.strataresolve.ticket.service.DuplicateDetectionService -- Detected 1 potential duplicate(s) for new ticket in property c546378d-d28c-442d-8d75-ab7f36fc0cb8 with title 'Lift is not working'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

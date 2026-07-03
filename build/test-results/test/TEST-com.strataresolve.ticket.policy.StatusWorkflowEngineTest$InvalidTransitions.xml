@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Invalid transitions" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.011">
+  <properties/>
+  <testcase name="SUBMITTED -&gt; IN_PROGRESS should be rejected" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$InvalidTransitions" time="0.002"/>
+  <testcase name="SUBMITTED -&gt; RESOLVED should be rejected" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$InvalidTransitions" time="0.0"/>
+  <testcase name="SUBMITTED -&gt; CLOSED should be rejected" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$InvalidTransitions" time="0.001"/>
+  <testcase name="ASSIGNED -&gt; RESOLVED should be rejected" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$InvalidTransitions" time="0.001"/>
+  <testcase name="IN_PROGRESS -&gt; SUBMITTED should be rejected" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$InvalidTransitions" time="0.001"/>
+  <testcase name="RESOLVED -&gt; IN_PROGRESS should be rejected" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$InvalidTransitions" time="0.001"/>
+  <testcase name="CLOSED -&gt; RESOLVED should be rejected" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$InvalidTransitions" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="changeCategory" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:37" hostname="LingkeshVerse.local" time="0.018">
+  <properties/>
+  <testcase name="should change category and recalculate SLA targets" classname="com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangeCategoryTests" time="0.004"/>
+  <testcase name="should reject when new category is the same as current" classname="com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangeCategoryTests" time="0.003"/>
+  <testcase name="should not publish PriorityChangedEvent on category change" classname="com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangeCategoryTests" time="0.003"/>
+  <testcase name="should record category change in status history" classname="com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangeCategoryTests" time="0.005"/>
+  <testcase name="should throw ResourceNotFoundException when ticket not found" classname="com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangeCategoryTests" time="0.003"/>
+  <system-out><![CDATA[22:14:37.959 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket 081acafb-c08e-4206-885d-f17cdeaa57d2 category changed from PLUMBING to ELECTRICAL by user 2c441e38-5874-4d6c-aa55-8f6c28537a8f
+22:14:37.965 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket 7631a278-df39-4da6-84a3-6b931d8a37d4 category changed from PLUMBING to LIFT by user 7445811b-1c0b-4107-803a-3ade3196a512
+22:14:37.969 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket 304f289b-9949-4991-9b6c-2ba7713db8e2 category changed from PLUMBING to ELECTRICAL by user b3f8f7c9-9a2a-4762-8acd-7dd48820ad9d
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

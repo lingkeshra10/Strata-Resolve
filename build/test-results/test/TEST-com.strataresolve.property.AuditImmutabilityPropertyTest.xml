@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.property.AuditImmutabilityPropertyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:40" hostname="LingkeshVerse.local" time="0.112">
+  <properties/>
+  <testcase name="auditEventEntityShallNotExposeSettersForCriticalFields" classname="com.strataresolve.property.AuditImmutabilityPropertyTest" time="0.006"/>
+  <testcase name="auditEventConstructedValuesShallBeImmutable" classname="com.strataresolve.property.AuditImmutabilityPropertyTest" time="0.018"/>
+  <testcase name="auditServiceShallNotExposeUpdateOrDeleteMethods" classname="com.strataresolve.property.AuditImmutabilityPropertyTest" time="0.002"/>
+  <testcase name="createdAuditEventFieldsShallRemainUnchanged" classname="com.strataresolve.property.AuditImmutabilityPropertyTest" time="0.085"/>
+  <system-out><![CDATA[timestamp = 2026-07-01T22:14:40.117677, AuditImmutabilityPropertyTest:auditEventEntityShallNotExposeSettersForCriticalFields = 
+                              |-----------------------jqwik-----------------------
+tries = 9                     | # of calls to property
+checks = 9                    | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -2664036621663278964   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:40.136176, AuditImmutabilityPropertyTest:auditEventConstructedValuesShallBeImmutable = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 36         | # of all combined edge cases
+edge-cases#tried = 17         | # of edge cases tried in current run
+seed = -8711312280944749411   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:40.138832, AuditImmutabilityPropertyTest:auditServiceShallNotExposeUpdateOrDeleteMethods = 
+                              |-----------------------jqwik-----------------------
+tries = 9                     | # of calls to property
+checks = 9                    | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -8348422965260639410   | random seed to reproduce generated values
+
+
+22:14:40.146 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=MEMBERSHIP_CHANGED, actor=64fdd855-533e-4f07-b837-546f913af2cf, target=Property/c770d060-651d-40a1-b1a4-095fb020c4f6, property=2534dcf7-fe9e-4839-bbca-1debbb8e1a8c
+22:14:40.147 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=MEMBERSHIP_CHANGED, actor=27d57a50-d404-4ac1-8610-b14d277030e1, target=Property/2ce81ddf-fc5e-46b5-88fd-9f9425470390, property=5b5b5468-ea8b-4217-b5d3-0b0d8f5ba08b
+22:14:40.148 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=77350204-c56c-4f71-84c6-42cc7b9306a9, target=Vendor/6022c5ef-9f72-4dee-a48f-d202b183df5e, property=2c6ca76f-52dd-4407-a780-45687b31e3a4
+22:14:40.149 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=SLA_POLICY_CHANGED, actor=c20233f5-6ae2-44b1-aacc-a25f46b525dd, target=SlaPolicy/b55a768b-35c8-49b9-b066-06218d06d238, property=460ca401-6345-4543-85fb-b3981b31ce80
+22:14:40.150 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PROPERTY_DEACTIVATED, actor=2d6a8983-a40b-4e07-a39f-59a5878a2819, target=Membership/a82da9cc-e96a-4f8d-8c08-56f1abb672a5, property=855bbf2d-770a-49a0-bcb1-971206a945aa
+22:14:40.151 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PROPERTY_DEACTIVATED, actor=2c1a6f0a-417c-4de7-a619-518c474bc8d2, target=Unit/4d9291e7-1a75-4bfe-9f51-d84cbd84f10e, property=f137ac07-147a-4535-8e4f-449af74ff7f7
+22:14:40.152 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PROPERTY_DEACTIVATED, actor=5f786a5f-a329-47f2-b1af-9de1911dad34, target=Ticket/996605a0-06bb-44f9-96cf-21367067856c, property=bc111415-d71c-4c2d-a8f4-0c6525fc1e82
+22:14:40.153 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=43915f82-700d-47de-ad9f-1c8fa2cfd32c, target=Ticket/1ae9ae27-c407-4216-8a8e-53aaab1c3f30, property=80775f0d-47e4-4d10-a397-7d47f4d6e966
+22:14:40.154 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=SLA_POLICY_CHANGED, actor=c12711ff-7fa2-4939-be6f-a6ee859a7c65, target=WorkOrder/314c3b8c-6a84-406e-b68a-f0985cac23d8, property=3b956d78-50c2-4eca-ab31-935f34b1d1e2
+22:14:40.155 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=CATEGORY_CHANGED, actor=10acced7-88c2-41e1-b9b6-487ab424fd2c, target=SlaPolicy/775d58e9-768d-48a6-b896-10ace27267bc, property=f7185460-41d1-4f3b-a52e-b8ab30d2939f
+22:14:40.155 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=6cbb5b8b-4844-4a59-a335-20c8ed812e0a, target=Unit/fe86dac3-6222-4b3a-b0b7-1906efd48bbf, property=b432d972-803c-4436-a04d-7132924efb2f
+22:14:40.158 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=ASSIGNMENT_CREATED, actor=d98b045b-ca4e-43a5-8764-8353a9406cd6, target=Ticket/70cafb4c-04ad-416c-923b-0185e084844e, property=7b30106e-6747-4faf-ac5e-ff1923cfa540
+22:14:40.159 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=1ecf4ed2-29dc-45f0-b974-271e3cbf9319, target=Ticket/fead3981-d224-493d-89b9-e541e27f028c, property=3fb431b5-2283-4a46-b452-3b6aafea0cf9
+22:14:40.160 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_ACKNOWLEDGED, actor=6c37815e-819c-4384-850d-b8fa8887ad85, target=Ticket/8eccb985-2253-4a1b-948f-297aebc8b590, property=eb4f1447-8a40-48d4-ba14-d9db1649da4a
+22:14:40.162 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=STATUS_CHANGED, actor=d60fe062-a14b-41d0-b11f-3c806d3836c4, target=Unit/f4b2c320-71df-41c0-9c1a-606e15bfa127, property=94cf4465-d9cd-4772-bcbc-235cc7c8becd
+22:14:40.163 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=85ffe18c-ab5d-4877-a632-834d42770a59, target=Ticket/2a9d40ba-6c9c-4a31-9f15-b642675ff798, property=fa6d9865-cb5b-46f3-9edf-adc2215faf4b
+22:14:40.163 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=a915878c-34c6-4716-b175-db070d39dc2b, target=Property/11a3176b-0737-4dea-a342-ca51e3ac111a, property=51de0fcf-1673-46cf-9bd5-832f1155c186
+22:14:40.165 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=CATEGORY_CHANGED, actor=8d3a8f62-7019-40bc-8abc-211497ccddb4, target=Ticket/9ab2f600-d727-45cb-bbcb-85fd170a8b40, property=922e9163-e517-4a1e-873a-304f7ff6915f
+22:14:40.165 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=d7ccab48-c44d-4c0c-a80a-244b29759b28, target=Ticket/d2a41d13-7e21-4432-8020-67db32589bea, property=1d9a51da-1c5c-4079-ae22-dfb6be502bbb
+22:14:40.166 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PRIORITY_CHANGED, actor=6b6b376e-6670-4224-932a-ce40c0dd03fc, target=WorkOrder/accc9ed3-8607-40c3-8348-eafe596301de, property=2fab2975-9d9b-403a-9de9-498534032d25
+22:14:40.167 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=MEMBERSHIP_CHANGED, actor=577df996-8f26-4f30-bc73-48d2505b84c9, target=SlaPolicy/1b4e9338-9a44-4c50-b90b-a434ab19b54b, property=7c36f46b-dcc9-42d2-ad5b-03ada4d3854b
+22:14:40.169 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=86d372be-6678-480e-b4ba-61176890ac1c, target=Ticket/b193c224-5fbe-4013-9d8c-8945fcd59035, property=68730944-4646-4104-b5ec-2b927f8d6296
+22:14:40.169 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_ACKNOWLEDGED, actor=bb32f2e1-b86c-48ba-8607-ab51e74ab8a4, target=Ticket/7719148c-c435-417a-bc21-f0ab231fc10f, property=1325ac44-61e2-4404-bf8c-cec9264e57a5
+22:14:40.170 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=f0eda59b-7954-4edd-8306-41848fb3053f, target=WorkOrder/94a261c9-599c-4386-a804-3718d98fb2fd, property=592776b4-3de1-4621-9357-73f562935be0
+22:14:40.171 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PROPERTY_DEACTIVATED, actor=9b939a5a-541b-40be-9482-e843d24203a3, target=Membership/ff7742d0-1dcc-4897-bb6a-f78c0233b461, property=f8ba65d0-3324-4f07-ae5a-3bc60f519bc5
+22:14:40.172 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=ef637370-8168-404d-b3dd-2b78b4e635d2, target=SlaPolicy/bf1a4d67-8672-40fc-8285-2d1b4a1e3c44, property=34fa06e8-732a-4ebb-a560-82aa807348ab
+22:14:40.172 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PROPERTY_DEACTIVATED, actor=c9d80264-8af2-4c66-9824-44001ba6d681, target=Property/ad7813e8-7b3d-4872-8846-e539af74f2f9, property=d5083423-02b5-4254-a387-7393dd3c9e03
+22:14:40.173 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=MEMBERSHIP_CHANGED, actor=9c7cee1c-ac1c-484b-9462-3c02f470b694, target=Unit/1dfe9121-7320-4596-aa27-1afc7225a1da, property=8289f9a1-ee7a-4221-98ad-240dfcf085be
+22:14:40.174 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=b74b11ce-8eef-48f0-aae2-04ea623d264a, target=Ticket/a0d1accf-127e-4e7d-94a3-dc9311f33a5f, property=885ffe77-6994-4997-a18a-9065716ae9cb
+22:14:40.174 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=650a69a3-e1ff-4938-a3d0-c627a99ceae7, target=Ticket/265785ac-917a-4fed-bac5-0ef1e9090cc6, property=8b47cc76-221e-4abc-b336-2e93dfe80ec6
+22:14:40.175 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=CATEGORY_CHANGED, actor=cb2e82bc-4282-4d6a-920f-d04350a8294d, target=Ticket/7d74f110-4252-48d7-9a20-365cf836fd11, property=4c5e94d9-7218-456b-8500-61ef04451152
+22:14:40.176 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=STATUS_CHANGED, actor=2d09c583-fb71-4ca3-859c-19af40522643, target=Block/be529db0-3164-44f2-99ef-5e747814beca, property=25b26c56-5511-49b2-a994-bb218a6eb39e
+22:14:40.177 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=SLA_POLICY_CHANGED, actor=d8c748f8-0de4-48e9-86ea-811480ce65a4, target=Membership/3c40cee3-6afa-4b3f-9d6c-b92c6013ec50, property=b435c2a0-9c52-4bff-9abd-6b208b703f45
+22:14:40.177 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=ASSIGNMENT_CREATED, actor=1069612e-e0a1-4b61-9e86-571afd505c0e, target=Block/fe05685f-5de9-4945-84f0-e3afca3816cc, property=7025d3c9-a3ce-435e-86c3-5637d88d10a4
+22:14:40.177 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=a230b7a0-2596-4c66-b987-7f983cb114fa, target=Property/ac5af85a-78c7-4f1a-968a-6c56911066ae, property=418c8007-a1d9-4b87-bbd4-a0a66bcada47
+22:14:40.178 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=SLA_POLICY_CHANGED, actor=f7a601c9-4809-46fb-9c9c-013b5aa87d7a, target=SlaPolicy/594af22f-1aaa-419a-8ac5-6427ab375576, property=a88cfe35-06ed-4ea6-9c30-ea789003ed2c
+22:14:40.179 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_ACKNOWLEDGED, actor=4368f77e-90b2-4dc1-b692-0af8c8a36a98, target=SlaPolicy/b8838556-a3b1-46f0-b8b3-60553ccfc6ed, property=e7c50cff-e024-4f8e-a976-17d410804b6b
+22:14:40.179 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=STATUS_CHANGED, actor=5c72c658-925e-42b8-b40a-15406a0b645e, target=Vendor/ab1eb3f3-75af-47f5-8b65-5027fe480dd4, property=00f84fba-738a-457e-ba67-036d9e78bf94
+22:14:40.180 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=e47897df-60a3-4892-aae6-b2425480bd0b, target=Property/bd98d85d-9b56-4c15-b837-08ca54c8bf2f, property=1fb6d7a8-63ec-4ab1-9b53-876485262f40
+22:14:40.180 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=ASSIGNMENT_CREATED, actor=81558623-aab7-48e3-b0d6-0837c21c3fd2, target=Block/fc9611b0-3c43-4102-8c0e-dd103eb896fb, property=7da54407-fa11-4966-9191-76b22607b655
+22:14:40.180 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=5c210532-b779-4efa-846f-2f294420592c, target=SlaPolicy/7fd67856-c652-4fea-90ed-8e4527cc0f72, property=9ff0b749-c671-41e3-ac16-1c5c89d06a44
+22:14:40.181 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=bf0972e6-aa3e-4586-8676-0a20848bd246, target=SlaPolicy/5142c1d8-a4d9-4174-8123-3d8c722a7a48, property=fa52fa92-5795-4b58-964e-10dc170da251
+22:14:40.181 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=CATEGORY_CHANGED, actor=0cc23586-998f-4481-bc0b-277a47a37593, target=SlaPolicy/a07232da-cefe-40e9-96fa-6913e3682108, property=1ec012f1-912e-433d-a11a-c3ca84351ac7
+22:14:40.182 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=beea53b0-c7a8-44cf-9153-3ab9e865c3e7, target=SlaPolicy/375f8ac0-a1fe-470f-b68b-61fb3772c490, property=2386de2a-b756-4437-b086-2524a5ce12b6
+22:14:40.183 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=15313d13-c601-495a-ac4a-3641e066c337, target=Ticket/59dbcb06-7240-4402-9821-8e4f134df37c, property=3dd0d463-7a0f-46ca-977a-f2e5aac691ee
+22:14:40.184 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PROPERTY_UPDATED, actor=fcd0633c-0de1-48c8-9002-26017d12a807, target=Block/e00791ee-08b7-43fa-badc-8c1eb68a16f8, property=4c6530f5-d686-434f-83a1-7d5fd2092128
+22:14:40.185 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=SLA_POLICY_CHANGED, actor=313cb997-29c2-4f05-afa2-f54014ec9dd8, target=Vendor/febf19e5-4a0e-418b-b9ef-bd0623565a61, property=20e763f0-ebcc-4b78-bbd8-d689a185994c
+22:14:40.186 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=SLA_POLICY_CHANGED, actor=6940b9da-bd0a-45ce-85c9-9cc75f8dc082, target=SlaPolicy/fb20ee17-78b4-464d-bbeb-7f528249c04c, property=4441b5f2-3bd4-409d-9405-eb5fb6d58728
+22:14:40.187 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=CATEGORY_CHANGED, actor=1a031d4a-23d6-44fa-a954-90995f38486a, target=Ticket/68c908b3-d9f2-4ece-af64-4da5af47b78e, property=194e585f-0bf3-4c85-a2ee-a483b8e19e77
+22:14:40.188 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=ce052eac-f834-4cfe-af09-20a26b3b7815, target=Ticket/a2465a02-fa69-4a87-bdad-90c3dd1eb519, property=db4f0c6c-f83f-4613-8051-5c4cead46450
+22:14:40.188 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=STATUS_CHANGED, actor=31096b56-b238-4820-9465-eeed472a43f1, target=Vendor/53461f27-aa7d-4d10-9fe7-91014bc3814a, property=dd052a22-c6f6-407f-93e6-324cf915ddb6
+22:14:40.189 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_RESOLVED, actor=db62bf4f-2cc9-4bae-95ef-5b4b8a9f58d8, target=WorkOrder/81eefd92-2825-426c-b145-944f9a47e036, property=dd6713bc-7320-41dd-8c3d-993ee3ad5239
+22:14:40.190 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=ASSIGNMENT_CREATED, actor=252e2d89-ec33-4be1-9db3-945882cc5e9c, target=Ticket/7ea336bc-6e00-43d9-8957-68fbbbd61f2f, property=49ae8638-fc51-48ad-8818-feddface372c
+22:14:40.190 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=SLA_POLICY_CHANGED, actor=6576859f-3f98-4827-9ea8-9c31ebf14719, target=Block/9cb3caf7-c6b1-4895-aa66-94a1c791bd34, property=b78b04de-8988-4d51-8c5b-cbab9eb10c90
+22:14:40.191 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PROPERTY_DEACTIVATED, actor=42716371-02e5-49b7-8afc-9cd908311191, target=WorkOrder/2fad677e-13e5-4b2c-a270-6f4fe6304664, property=2b631138-8e62-467e-93f9-bef6a2e445ae
+22:14:40.192 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=STATUS_CHANGED, actor=a7734b5a-3b52-4498-9c9a-61cc33be3da5, target=WorkOrder/b3ebcd2a-6f2e-459c-8b31-1052ad1c7232, property=8f145d42-99c7-4fde-93e4-7b1a4bbf9361
+22:14:40.193 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=ASSIGNMENT_CREATED, actor=a0e3c818-59a6-4a6b-a976-70516e1dffd0, target=Vendor/43f22691-dcc4-470f-817e-7c98e7a6006d, property=30e29ca3-b7c9-4cee-8af5-d1ea3b622e87
+22:14:40.193 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=ASSIGNMENT_CREATED, actor=0a2a0d16-3c62-4656-a67d-b8e742433130, target=Membership/8f8af535-ad50-4089-8ead-6da20b5f35e6, property=1cfa9fc3-cf95-4da5-a933-9bedbd621489
+22:14:40.194 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=CATEGORY_CHANGED, actor=3c199b7b-ca14-43e5-95bd-21327718d06a, target=Vendor/2cc5bfd6-a916-4be2-87f2-a594cec25e81, property=ae5413d0-182b-4816-93cb-174366ac6fdc
+22:14:40.195 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=17c2fcf8-5d18-472f-8517-ed5519437f94, target=Ticket/a5fde7c4-86f3-4494-822c-0097f3369499, property=4ca6401d-6f07-44cb-ada4-60a4c6f0de2d
+22:14:40.195 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=MEMBERSHIP_CHANGED, actor=2236306d-7b42-4340-a9c3-0bb780745034, target=SlaPolicy/4d748c2b-2436-4ba1-8ca7-ad62bb803c69, property=13a04a26-968e-4a33-aa84-83a8dd4d8186
+22:14:40.196 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PRIORITY_CHANGED, actor=a8d75ab9-65ca-496f-bfc9-bacfe56043e8, target=Block/295c9af8-d8a2-41be-b726-99742798db5e, property=c986bbd9-8205-46ad-b8ac-38ac30642cd2
+22:14:40.196 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=STATUS_CHANGED, actor=e29343f4-462b-462d-812d-86f94286d318, target=Membership/dcb397ee-7357-4694-b492-f8682df7914d, property=fe3a1e3f-7e23-492a-a4f1-c4a8ee27a245
+22:14:40.197 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=5ca0f7a5-27a2-46fb-bf26-a771694e133d, target=Block/14c7f016-b08d-4c00-b5fb-3565751bca8e, property=b08504ab-34f6-41bd-b531-45f81bc3d35a
+22:14:40.200 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=d958fbf6-a157-496f-970d-aa5a72c162eb, target=Ticket/4e071678-13ed-41f1-bef0-966a0543237e, property=af824359-559b-488d-8e9b-19cd42be93c4
+22:14:40.201 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PRIORITY_CHANGED, actor=d71ac513-ec7a-406e-ab5e-70372ec299e2, target=WorkOrder/d771e0d0-c3c0-4cb9-aa15-a73cc007206b, property=539c0718-3d5d-4717-8a12-324255ede678
+22:14:40.202 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_ACKNOWLEDGED, actor=5ebf2bd4-c95e-4a42-ab9c-a6f7db7c1106, target=SlaPolicy/b7d1e99c-b629-44f2-8e31-6823e5c8f0e5, property=2505f3d4-5190-4f30-b208-159a6d892cf8
+22:14:40.203 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_ACKNOWLEDGED, actor=1927f6f8-8e81-48ea-ba07-06bf8670d25c, target=Unit/2d8cf070-3539-41ec-aa97-20d57f36bd91, property=1d8b48ac-997a-47ce-9e36-9776b26db55c
+22:14:40.204 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=45c065b9-b2ce-498e-91fb-619bbaeb03fe, target=Membership/cc2be6d3-9244-4049-b83d-ebb42c375b26, property=1c37a311-aa11-4ecf-bc01-b7af3152208c
+22:14:40.204 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=MEMBERSHIP_CHANGED, actor=fd76801e-88b8-46ee-81e6-30aa04f8b5ed, target=Ticket/e634a305-7012-41eb-a62e-46235a1bfca0, property=d91622c1-43d7-4c6a-9160-75c3f56d3dd5
+22:14:40.205 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_RESOLVED, actor=6731c6ed-88e6-4de5-aeec-7aa0dd170f3c, target=Property/965b9137-63f8-4eff-9e1d-ff9fc5e2e7a8, property=cbf5e26d-9858-4ddf-9274-ae0991517c39
+22:14:40.205 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PROPERTY_DEACTIVATED, actor=3ef5f98f-2583-4034-8116-9f86e36bd184, target=Block/d7c95ba7-e49b-4e61-895a-6c610da16006, property=12ffc27b-3029-4815-a0b3-01ca52958115
+22:14:40.206 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_RESOLVED, actor=32bf04ee-4405-4b78-b596-a0f629257edf, target=Membership/345fb6b3-d09f-4ab5-ae50-583913928ccb, property=6cecc811-f57b-4e3c-b1ed-4281c413d871
+22:14:40.206 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=7c31d115-04e2-489f-9378-979c947fc2dd, target=Unit/dc8fc3ac-7a36-4b3c-b4eb-0ea70840f34d, property=61153f58-620a-4e87-b1e0-bb89abcee5ec
+22:14:40.207 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=3e243f76-d316-452f-ac60-6459623fd53f, target=Ticket/7cc75449-4280-46a3-bea9-d5d92592a508, property=8eb2a054-6ef6-4544-89d6-ef397190c751
+22:14:40.207 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PROPERTY_UPDATED, actor=53060d92-c2db-46eb-9b05-cf3235da0e8e, target=SlaPolicy/d638d922-0bfc-4fa4-897b-500efe282456, property=5a117379-8c3e-43a8-a6a3-bd20f92f5290
+22:14:40.208 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=bd6e90bc-7795-4e50-8cd5-3c6682699e36, target=WorkOrder/996e7ac6-29f2-409b-9ade-aa5fcb0b09c3, property=61d3df16-8b27-4fa5-8ab0-352ca53e58ac
+22:14:40.209 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PROPERTY_UPDATED, actor=2deb5725-807f-47a6-9fb1-a9dabeb2ff28, target=Unit/00c3b562-3380-41e4-abfc-e853d5aab08f, property=4630a130-fceb-4cc7-9ba2-156f0fe26ee0
+22:14:40.210 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=MEMBERSHIP_CHANGED, actor=1fff28eb-129c-4f55-9b67-d93d2b252b86, target=SlaPolicy/eec15280-fede-47c5-9ff0-22364f8bb198, property=5ff3f734-cfa4-4632-9a27-8807df326ef1
+22:14:40.210 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=4ee9b4cf-c5eb-4017-99d8-e9e70f7c27c5, target=Unit/bccf63a0-ce28-4ace-9a3f-f9e119cbfbc6, property=165e1775-818a-4956-83ae-414a0bac40a3
+22:14:40.211 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=cde5f8a1-853e-4c68-ad86-cdc89d3733e2, target=Property/112beaa3-7563-4611-83ed-2ad8b6a4fe35, property=4978576f-4369-4680-a11b-0ed56fae4058
+22:14:40.212 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=ASSIGNMENT_CREATED, actor=4316b6df-c8c9-4767-97bb-70c1a942b582, target=Ticket/391fd64f-9466-4a3a-b364-a6e489e56b4c, property=0a80e27c-311a-4a2c-9a9d-edde10bfeddf
+22:14:40.212 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=cbcb9bbf-7e1e-4153-831c-254375d73b9d, target=Unit/3531d871-a4cd-4e18-b05b-aacc488ed199, property=d05918c6-8791-4fbf-a5d2-b7a08f8c950d
+22:14:40.213 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=MEMBERSHIP_CHANGED, actor=45d41251-5f1f-419f-8764-327359c66717, target=Ticket/658d41c7-acfd-4639-9d13-11aff8e819a8, property=713b0b57-6cf4-418e-9b86-72825097b1ab
+22:14:40.213 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=268cf477-caf5-4ed1-a1d0-d2a499783c4d, target=SlaPolicy/ed997a09-87d1-405e-8ebe-8f9141e70a56, property=75187608-8097-40f9-bc62-0b7607e61ac7
+22:14:40.214 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=STATUS_CHANGED, actor=3107dd2f-634d-4f5c-aa82-8073c892db6e, target=Property/d90b5f36-2225-4954-8c47-14853d43185e, property=c9ad3b8a-766c-413e-8399-530024fe6a1a
+22:14:40.214 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_RESOLVED, actor=a0ad46de-3ae9-4190-b789-713d2a6f1444, target=WorkOrder/9e1d316c-f514-4666-9b66-18a463225d4d, property=218e1158-6641-4da0-b7a0-586672f1fae9
+22:14:40.214 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_RESOLVED, actor=985fee21-e34c-4b9b-891d-49ef97442380, target=WorkOrder/0a6d03c0-7b8c-4b54-925d-b2c7a93be24f, property=fde6dfa2-9ddd-474f-b50b-118a229d2ed4
+22:14:40.215 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=3f8b2dfd-203c-4762-9a45-045292bf891b, target=WorkOrder/f126b6b5-8426-4cef-9fbb-60804a239961, property=77619fc2-13ea-428d-874b-6f7f28dc8505
+22:14:40.216 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_ACKNOWLEDGED, actor=161a7ee0-9d59-45ff-8107-3ac56830e884, target=SlaPolicy/03fb8e7a-8f8b-4efa-ae96-74d7292fe232, property=42080624-084b-4c2f-9947-54f3ba169f76
+22:14:40.216 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=687267f1-2a21-4d3a-a502-63fbdcdc9d2c, target=WorkOrder/aa440ad3-4c69-4c35-ba7a-5163f5fdc98f, property=d8e33c7f-6337-49c5-85a0-6b9dfc70b09b
+22:14:40.217 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_ACKNOWLEDGED, actor=19f41bbb-92b4-440c-9a0a-ea7e99d65290, target=SlaPolicy/71e359de-6c32-49d2-9c89-bb65800e7114, property=abcfdbbb-593b-49b3-96f5-9fc6c7b1100d
+22:14:40.218 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=757702c3-abd0-4206-a6e5-324ef0bd2cc3, target=SlaPolicy/89729234-5520-4c05-a4d2-1f7a7718987d, property=4b600869-4e45-4696-8561-cd4d40a1350f
+22:14:40.219 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_ACKNOWLEDGED, actor=91b9dbcd-cb7a-4dfe-8cee-63ce3ff7279f, target=Block/c28e82b1-442b-4ef8-a68f-9a33bf243574, property=222a5d83-1eba-4854-b409-a8ff143734b5
+22:14:40.219 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=080de14f-beac-41c8-ab6f-50c9ab2706e9, target=Property/705e00c2-64af-4d88-ba6e-1ff812439b69, property=5042f9bc-5319-4ac9-893f-8488cfff42c1
+22:14:40.220 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=STATUS_CHANGED, actor=89039966-a1a6-4a64-bc9f-99dafdb86891, target=Membership/997dcc80-b80c-4c95-b45b-1308ece7ac4c, property=66f315f7-f67a-44cf-adab-59d263cc268e
+22:14:40.220 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=PROPERTY_DEACTIVATED, actor=f0e42f2d-1f66-407f-ad35-fd147d7b1a08, target=Vendor/796bd83f-751f-458c-b534-554af38cdab6, property=61e00cb5-fd1b-4553-830d-2e14215cbfdb
+22:14:40.221 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_ACKNOWLEDGED, actor=867f7398-d118-4617-8036-fd049027c05a, target=Block/fd135606-631f-47ee-a0f8-89f3967af49d, property=9bab85b9-d4fa-4610-b839-5613331201ca
+22:14:40.222 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CLOSED, actor=1d39d659-a59d-40da-958e-ad7366502247, target=SlaPolicy/431d4cfd-67b5-49fc-a680-208bca8d670d, property=089e2ce7-8bee-4a04-9edf-65759249698d
+22:14:40.223 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=STATUS_CHANGED, actor=ebc29e2c-ceab-4bf3-86f5-b21421c47e4d, target=Ticket/64be99d0-dd75-4291-b9c4-add050d9cfac, property=a377a0d5-07ab-4973-bcf8-0d49d36a9aec
+timestamp = 2026-07-01T22:14:40.224158, AuditImmutabilityPropertyTest:createdAuditEventFieldsShallRemainUnchanged = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 36         | # of all combined edge cases
+edge-cases#tried = 12         | # of edge cases tried in current run
+seed = 5358346936250825157    | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

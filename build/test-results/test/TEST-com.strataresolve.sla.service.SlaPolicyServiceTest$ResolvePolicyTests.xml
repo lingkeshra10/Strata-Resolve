@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="resolvePolicy - fallback logic" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.016">
+  <properties/>
+  <testcase name="should fall back to priority-level default when no exact or category match" classname="com.strataresolve.sla.service.SlaPolicyServiceTest$ResolvePolicyTests" time="0.003"/>
+  <testcase name="should return exact match when specific policy exists for property/category/priority" classname="com.strataresolve.sla.service.SlaPolicyServiceTest$ResolvePolicyTests" time="0.002"/>
+  <testcase name="should return empty when no policy exists at any level" classname="com.strataresolve.sla.service.SlaPolicyServiceTest$ResolvePolicyTests" time="0.002"/>
+  <testcase name="should fall back to category-level default when no exact match" classname="com.strataresolve.sla.service.SlaPolicyServiceTest$ResolvePolicyTests" time="0.001"/>
+  <testcase name="should fall back to property default when no specific matches" classname="com.strataresolve.sla.service.SlaPolicyServiceTest$ResolvePolicyTests" time="0.003"/>
+  <testcase name="should prefer exact match over category default" classname="com.strataresolve.sla.service.SlaPolicyServiceTest$ResolvePolicyTests" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

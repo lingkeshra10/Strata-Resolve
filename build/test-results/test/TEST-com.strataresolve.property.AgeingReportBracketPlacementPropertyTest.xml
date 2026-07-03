@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.property.AgeingReportBracketPlacementPropertyTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:39" hostname="LingkeshVerse.local" time="0.105">
+  <properties/>
+  <testcase name="ageDaysComputationProducesCorrectDayCount" classname="com.strataresolve.property.AgeingReportBracketPlacementPropertyTest" time="0.038"/>
+  <testcase name="ticketsOverThirtyDaysPlacedInCorrectBracket" classname="com.strataresolve.property.AgeingReportBracketPlacementPropertyTest" time="0.007"/>
+  <testcase name="bracketsAreMutuallyExclusiveAndExhaustive" classname="com.strataresolve.property.AgeingReportBracketPlacementPropertyTest" time="0.008"/>
+  <testcase name="ticketsEightToFourteenDaysPlacedInCorrectBracket" classname="com.strataresolve.property.AgeingReportBracketPlacementPropertyTest" time="0.015"/>
+  <testcase name="ticketsFifteenToThirtyDaysPlacedInCorrectBracket" classname="com.strataresolve.property.AgeingReportBracketPlacementPropertyTest" time="0.006"/>
+  <testcase name="ticketsZeroToThreeDaysPlacedInCorrectBracket" classname="com.strataresolve.property.AgeingReportBracketPlacementPropertyTest" time="0.005"/>
+  <testcase name="eachTicketIsPlacedInExactlyOneBracket" classname="com.strataresolve.property.AgeingReportBracketPlacementPropertyTest" time="0.007"/>
+  <testcase name="endToEndBracketPlacementFromTimestamps" classname="com.strataresolve.property.AgeingReportBracketPlacementPropertyTest" time="0.013"/>
+  <testcase name="ticketsFourToSevenDaysPlacedInCorrectBracket" classname="com.strataresolve.property.AgeingReportBracketPlacementPropertyTest" time="0.004"/>
+  <system-out><![CDATA[timestamp = 2026-07-01T22:14:39.738950, AgeingReportBracketPlacementPropertyTest:ageDaysComputationProducesCorrectDayCount = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 100        | # of all combined edge cases
+edge-cases#tried = 15         | # of edge cases tried in current run
+seed = 1267262781212377831    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:39.746821, AgeingReportBracketPlacementPropertyTest:ticketsOverThirtyDaysPlacedInCorrectBracket = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 4          | # of all combined edge cases
+edge-cases#tried = 4          | # of edge cases tried in current run
+seed = 6107054204726789621    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:39.754732, AgeingReportBracketPlacementPropertyTest:bracketsAreMutuallyExclusiveAndExhaustive = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 5          | # of all combined edge cases
+edge-cases#tried = 3          | # of edge cases tried in current run
+seed = -3252444640262115393   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:39.769778, AgeingReportBracketPlacementPropertyTest:ticketsEightToFourteenDaysPlacedInCorrectBracket = 
+                              |-----------------------jqwik-----------------------
+tries = 7                     | # of calls to property
+checks = 7                    | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -7739339740160334140   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:39.775252, AgeingReportBracketPlacementPropertyTest:ticketsFifteenToThirtyDaysPlacedInCorrectBracket = 
+                              |-----------------------jqwik-----------------------
+tries = 16                    | # of calls to property
+checks = 16                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = 4722134370614316082    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:39.780770, AgeingReportBracketPlacementPropertyTest:ticketsZeroToThreeDaysPlacedInCorrectBracket = 
+                              |-----------------------jqwik-----------------------
+tries = 4                     | # of calls to property
+checks = 4                    | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -5348044104314592331   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:39.787815, AgeingReportBracketPlacementPropertyTest:eachTicketIsPlacedInExactlyOneBracket = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 5          | # of all combined edge cases
+edge-cases#tried = 5          | # of edge cases tried in current run
+seed = 2048298363703208739    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:39.800857, AgeingReportBracketPlacementPropertyTest:endToEndBracketPlacementFromTimestamps = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 100        | # of all combined edge cases
+edge-cases#tried = 13         | # of edge cases tried in current run
+seed = -2902592956510901437   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:39.805629, AgeingReportBracketPlacementPropertyTest:ticketsFourToSevenDaysPlacedInCorrectBracket = 
+                              |-----------------------jqwik-----------------------
+tries = 4                     | # of calls to property
+checks = 4                    | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = 9008995550665698388    | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[Jul 01, 2026 10:14:39 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 100 generated cases.
+Jul 01, 2026 10:14:39 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 100 generated cases.
+]]></system-err>
+</testsuite>

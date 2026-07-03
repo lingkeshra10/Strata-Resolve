@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Valid transitions" tests="29" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.039">
+  <properties/>
+  <testcase name="SUBMITTED -&gt; ACKNOWLEDGED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="SUBMITTED -&gt; REJECTED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="SUBMITTED -&gt; CANCELLED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="ACKNOWLEDGED -&gt; UNDER_REVIEW should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.0"/>
+  <testcase name="ACKNOWLEDGED -&gt; ASSIGNED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="ACKNOWLEDGED -&gt; REJECTED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="ACKNOWLEDGED -&gt; CANCELLED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="UNDER_REVIEW -&gt; ASSIGNED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="UNDER_REVIEW -&gt; REJECTED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="UNDER_REVIEW -&gt; CANCELLED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.0"/>
+  <testcase name="ASSIGNED -&gt; IN_PROGRESS should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.0"/>
+  <testcase name="ASSIGNED -&gt; AWAITING_VENDOR should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.0"/>
+  <testcase name="ASSIGNED -&gt; CANCELLED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="IN_PROGRESS -&gt; AWAITING_VENDOR should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="IN_PROGRESS -&gt; AWAITING_RESIDENT should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="IN_PROGRESS -&gt; READY_FOR_VERIFICATION should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="IN_PROGRESS -&gt; CANCELLED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.0"/>
+  <testcase name="AWAITING_VENDOR -&gt; IN_PROGRESS should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="AWAITING_VENDOR -&gt; CANCELLED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="AWAITING_RESIDENT -&gt; IN_PROGRESS should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="AWAITING_RESIDENT -&gt; CANCELLED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="READY_FOR_VERIFICATION -&gt; RESOLVED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="READY_FOR_VERIFICATION -&gt; IN_PROGRESS should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="RESOLVED -&gt; CLOSED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.002"/>
+  <testcase name="RESOLVED -&gt; REOPENED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="CLOSED -&gt; REOPENED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="REOPENED -&gt; ACKNOWLEDGED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.001"/>
+  <testcase name="REOPENED -&gt; ASSIGNED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.0"/>
+  <testcase name="REOPENED -&gt; CANCELLED should be allowed" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SpringMailEmailSender" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:34" hostname="LingkeshVerse.local" time="0.114">
+  <properties/>
+  <testcase name="send should throw EmailSendException when JavaMailSender fails" classname="com.strataresolve.notification.service.SpringMailEmailSenderTest" time="0.094"/>
+  <testcase name="send should construct and send SimpleMailMessage with correct fields" classname="com.strataresolve.notification.service.SpringMailEmailSenderTest" time="0.014"/>
+  <testcase name="send should use the configured from address" classname="com.strataresolve.notification.service.SpringMailEmailSenderTest" time="0.003"/>
+  <system-out><![CDATA[22:14:35.050 [Test worker] ERROR com.strataresolve.notification.service.SpringMailEmailSender -- Failed to send email to recipient@example.com for notification 2d915eef-2104-4b65-9ccc-d9a0195d8b11: SMTP connection refused
+22:14:35.061 [Test worker] INFO com.strataresolve.notification.service.SpringMailEmailSender -- Email sent successfully to recipient@example.com for notification f01dbb0b-54c6-4c3f-a591-75d4d5e8c785
+22:14:35.074 [Test worker] INFO com.strataresolve.notification.service.SpringMailEmailSender -- Email sent successfully to recipient@example.com for notification d87efdd6-44d8-4ec1-bd08-3dea47cd1a36
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

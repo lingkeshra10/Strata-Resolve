@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AuditService" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:34" hostname="LingkeshVerse.local" time="0.026">
+  <properties/>
+  <testcase name="should return the saved audit event" classname="com.strataresolve.audit.service.AuditServiceTest" time="0.01"/>
+  <testcase name="should persist audit event with both previous and new values" classname="com.strataresolve.audit.service.AuditServiceTest" time="0.008"/>
+  <testcase name="should create audit event with all provided fields" classname="com.strataresolve.audit.service.AuditServiceTest" time="0.006"/>
+  <system-out><![CDATA[22:14:34.398 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=ASSIGNMENT_CREATED, actor=def5956b-1947-475f-8bc5-7e2d34764a18, target=Ticket/27a1d26e-c031-402c-9649-d71b28fb1a5a, property=bc855372-4f4a-4244-aa7c-e114088969c0
+22:14:34.409 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=STATUS_CHANGED, actor=503b2284-3d9d-41df-89da-5b471f37407c, target=Ticket/fef1f3ea-da97-46c0-83cf-c22044203426, property=3df12412-7b5a-4fa3-abe7-5196f37654d1
+22:14:34.418 [Test worker] INFO com.strataresolve.audit.service.AuditService -- Audit event created: type=TICKET_CREATED, actor=9504eef5-b223-4024-b15c-116fc023fe90, target=Ticket/b158df98-03d5-4ef1-a91b-cdd997943d22, property=1b734136-6d2f-435a-abe7-d9333c58d182
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

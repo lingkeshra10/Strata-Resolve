@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ReportController" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:35" hostname="LingkeshVerse.local" time="0.243">
+  <properties/>
+  <testcase name="CSV responses should include Content-Length header" classname="com.strataresolve.reporting.controller.ReportControllerTest" time="0.171"/>
+  <testcase name="getAgeingReportCsv should return CSV with correct content type and disposition" classname="com.strataresolve.reporting.controller.ReportControllerTest" time="0.005"/>
+  <testcase name="getVendorPerformanceReportCsv should return CSV with correct headers" classname="com.strataresolve.reporting.controller.ReportControllerTest" time="0.004"/>
+  <testcase name="getSlaReportCsv should return CSV with correct headers" classname="com.strataresolve.reporting.controller.ReportControllerTest" time="0.007"/>
+  <testcase name="getSlaReport should return SLA compliance report as JSON" classname="com.strataresolve.reporting.controller.ReportControllerTest" time="0.032"/>
+  <testcase name="getVendorPerformanceReport should return vendor metrics as JSON" classname="com.strataresolve.reporting.controller.ReportControllerTest" time="0.006"/>
+  <testcase name="getSlaReport should pass filters to service" classname="com.strataresolve.reporting.controller.ReportControllerTest" time="0.004"/>
+  <testcase name="getAgeingReport should return ageing report as JSON" classname="com.strataresolve.reporting.controller.ReportControllerTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

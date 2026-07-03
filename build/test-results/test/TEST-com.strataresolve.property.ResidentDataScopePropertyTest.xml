@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.property.ResidentDataScopePropertyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:40" hostname="LingkeshVerse.local" time="0.27">
+  <properties/>
+  <testcase name="residentWithNoLinkedUnitsGetsOnlyOwnSubmittedTickets" classname="com.strataresolve.property.ResidentDataScopePropertyTest" time="0.018"/>
+  <testcase name="ticketsFromOtherResidentsAndUnrelatedUnitsAreExcluded" classname="com.strataresolve.property.ResidentDataScopePropertyTest" time="0.09"/>
+  <testcase name="allReturnedTicketsBelongToResidentOrTheirUnits" classname="com.strataresolve.property.ResidentDataScopePropertyTest" time="0.072"/>
+  <testcase name="scopeEnforcementIsConsistentRegardlessOfTicketVolume" classname="com.strataresolve.property.ResidentDataScopePropertyTest" time="0.089"/>
+  <system-out><![CDATA[timestamp = 2026-07-01T22:14:40.900454, ResidentDataScopePropertyTest:residentWithNoLinkedUnitsGetsOnlyOwnSubmittedTickets = 
+                              |-----------------------jqwik-----------------------
+tries = 11                    | # of calls to property
+checks = 11                   | # of not rejected calls
+generation = EXHAUSTIVE       | parameters are exhaustively generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 0          | # of all combined edge cases
+edge-cases#tried = 0          | # of edge cases tried in current run
+seed = -864287431691601855    | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:40.990211, ResidentDataScopePropertyTest:ticketsFromOtherResidentsAndUnrelatedUnitsAreExcluded = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 100        | # of all combined edge cases
+edge-cases#tried = 23         | # of edge cases tried in current run
+seed = -2542500610901100897   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.062713, ResidentDataScopePropertyTest:allReturnedTicketsBelongToResidentOrTheirUnits = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 100        | # of all combined edge cases
+edge-cases#tried = 18         | # of edge cases tried in current run
+seed = -8931597775760229975   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:41.152911, ResidentDataScopePropertyTest:scopeEnforcementIsConsistentRegardlessOfTicketVolume = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 100        | # of all combined edge cases
+edge-cases#tried = 12         | # of edge cases tried in current run
+seed = 5393907274634697726    | random seed to reproduce generated values
+
+
+]]></system-out>
+  <system-err><![CDATA[Jul 01, 2026 10:14:40 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 100 generated cases.
+Jul 01, 2026 10:14:40 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 100 generated cases.
+Jul 01, 2026 10:14:41 PM net.jqwik.engine.properties.RandomizedShrinkablesGenerator logEdgeCasesOutnumberTriesIfApplicable
+INFO: Edge case generation exceeds number of tries. Stopped after 100 generated cases.
+]]></system-err>
+</testsuite>

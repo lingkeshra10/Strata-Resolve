@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strataresolve.vendor.service.WorkOrderServiceTest$FindByVendorTechnicianTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:38" hostname="LingkeshVerse.local" time="0.007">
+  <properties/>
+  <testcase name="findByVendorTechnician_withNoVendorMembership_throwsException()" classname="com.strataresolve.vendor.service.WorkOrderServiceTest$FindByVendorTechnicianTests" time="0.004"/>
+  <testcase name="findByVendorTechnician_withValidMembership_returnsWorkOrders()" classname="com.strataresolve.vendor.service.WorkOrderServiceTest$FindByVendorTechnicianTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

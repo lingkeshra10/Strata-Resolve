@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ActivityHistoryService - Activity History" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:37" hostname="LingkeshVerse.local" time="0.273">
+  <properties/>
+  <testcase name="should return empty list when ticket has no activity" classname="com.strataresolve.ticket.service.ActivityHistoryServiceTest" time="0.237"/>
+  <testcase name="should include all activity types in the response" classname="com.strataresolve.ticket.service.ActivityHistoryServiceTest" time="0.011"/>
+  <testcase name="every entry should have non-null author and timestamp" classname="com.strataresolve.ticket.service.ActivityHistoryServiceTest" time="0.003"/>
+  <testcase name="should return activities in chronological order" classname="com.strataresolve.ticket.service.ActivityHistoryServiceTest" time="0.002"/>
+  <testcase name="should throw ResourceNotFoundException when ticket does not exist" classname="com.strataresolve.ticket.service.ActivityHistoryServiceTest" time="0.004"/>
+  <testcase name="should handle attachment repository failure gracefully" classname="com.strataresolve.ticket.service.ActivityHistoryServiceTest" time="0.003"/>
+  <testcase name="should filter internal notes for resident users" classname="com.strataresolve.ticket.service.ActivityHistoryServiceTest" time="0.003"/>
+  <testcase name="should show internal notes for property managers" classname="com.strataresolve.ticket.service.ActivityHistoryServiceTest" time="0.004"/>
+  <testcase name="status change metadata should include previous and new status" classname="com.strataresolve.ticket.service.ActivityHistoryServiceTest" time="0.003"/>
+  <system-out><![CDATA[22:14:37.289 [Test worker] WARN com.strataresolve.ticket.service.ActivityHistoryService -- Unable to fetch attachments for ticket 0fcbcf11-8457-4e09-942e-53c5c2bc1edf: Table does not exist
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="onAssignmentCreated" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:33" hostname="LingkeshVerse.local" time="0.023">
+  <properties/>
+  <testcase name="should create audit event with ASSIGNMENT_CREATED type" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnAssignmentCreatedTests" time="0.007"/>
+  <testcase name="should include assignee ID and type in new value" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnAssignmentCreatedTests" time="0.006"/>
+  <testcase name="should have null previous value for assignment creation" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnAssignmentCreatedTests" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${DB_HOST:localhost}:${DB_PORT:5432}/${DB_NAME:strataresolve_test}
+    username: ${DB_USERNAME:strataresolve}
+    password: ${DB_PASSWORD:strataresolve}
+
+  jpa:
+    show-sql: false
+
+  flyway:
+    clean-disabled: false
+
+app:
+  jwt:
+    secret: test-secret-key-that-is-at-least-32-bytes-long-for-hmac-sha256
+
+logging:
+  level:
+    com.strataresolve: INFO

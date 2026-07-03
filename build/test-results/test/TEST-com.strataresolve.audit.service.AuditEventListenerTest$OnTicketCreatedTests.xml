@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="onTicketCreated" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:34" hostname="LingkeshVerse.local" time="0.015">
+  <properties/>
+  <testcase name="should include reference number, category, and priority in new value" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnTicketCreatedTests" time="0.004"/>
+  <testcase name="should have null previous value for creation events" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnTicketCreatedTests" time="0.004"/>
+  <testcase name="should create audit event with TICKET_CREATED type" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnTicketCreatedTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

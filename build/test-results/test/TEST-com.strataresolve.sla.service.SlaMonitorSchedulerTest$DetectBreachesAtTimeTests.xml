@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="detectBreachesAtTime" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.02">
+  <properties/>
+  <testcase name="should update multiple tickets with different breach types" classname="com.strataresolve.sla.service.SlaMonitorSchedulerTest$DetectBreachesAtTimeTests" time="0.005"/>
+  <testcase name="should update ticket sla_status when breach detected" classname="com.strataresolve.sla.service.SlaMonitorSchedulerTest$DetectBreachesAtTimeTests" time="0.004"/>
+  <testcase name="should return 0 when no tickets have breached SLA" classname="com.strataresolve.sla.service.SlaMonitorSchedulerTest$DetectBreachesAtTimeTests" time="0.003"/>
+  <testcase name="should transition from ACK_BREACHED to BOTH_BREACHED when resolution also breaches" classname="com.strataresolve.sla.service.SlaMonitorSchedulerTest$DetectBreachesAtTimeTests" time="0.003"/>
+  <testcase name="should not save ticket if sla_status has not changed" classname="com.strataresolve.sla.service.SlaMonitorSchedulerTest$DetectBreachesAtTimeTests" time="0.004"/>
+  <system-out><![CDATA[22:14:36.692 [Test worker] INFO com.strataresolve.sla.service.SlaMonitorScheduler -- SLA breach detected for ticket 1a5f6ec0-6b06-4fbd-99a0-7e3a7d87684e (ref: SR-2025-000001): ON_TRACK -> ACK_BREACHED
+22:14:36.693 [Test worker] INFO com.strataresolve.sla.service.SlaMonitorScheduler -- SLA breach detected for ticket 73e599d2-687c-4827-aaf4-3cc5ba35060e (ref: SR-2025-000001): ACK_BREACHED -> BOTH_BREACHED
+22:14:36.693 [Test worker] INFO com.strataresolve.sla.service.SlaMonitorScheduler -- SLA breach check completed: 2 ticket(s) updated
+22:14:36.697 [Test worker] INFO com.strataresolve.sla.service.SlaMonitorScheduler -- SLA breach detected for ticket c690eb08-a91e-46a8-b186-dac7782aa97f (ref: SR-2025-000001): ON_TRACK -> ACK_BREACHED
+22:14:36.697 [Test worker] INFO com.strataresolve.sla.service.SlaMonitorScheduler -- SLA breach check completed: 1 ticket(s) updated
+22:14:36.704 [Test worker] INFO com.strataresolve.sla.service.SlaMonitorScheduler -- SLA breach detected for ticket 8c87db59-466b-43a8-b221-4100dda4009e (ref: SR-2025-000001): ACK_BREACHED -> BOTH_BREACHED
+22:14:36.704 [Test worker] INFO com.strataresolve.sla.service.SlaMonitorScheduler -- SLA breach check completed: 1 ticket(s) updated
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

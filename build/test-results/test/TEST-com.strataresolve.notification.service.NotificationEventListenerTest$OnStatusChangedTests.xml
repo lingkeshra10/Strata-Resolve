@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="onStatusChanged" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:34" hostname="LingkeshVerse.local" time="0.021">
+  <properties/>
+  <testcase name="should include reason in notification body when present" classname="com.strataresolve.notification.service.NotificationEventListenerTest$OnStatusChangedTests" time="0.008"/>
+  <testcase name="should notify property managers about status changes" classname="com.strataresolve.notification.service.NotificationEventListenerTest$OnStatusChangedTests" time="0.005"/>
+  <testcase name="should not notify the acting user for status changes" classname="com.strataresolve.notification.service.NotificationEventListenerTest$OnStatusChangedTests" time="0.006"/>
+  <system-out><![CDATA[22:14:34.626 [Test worker] INFO com.strataresolve.notification.service.NotificationEventListener -- Created notification(s) for StatusChangedEvent: ticket=37fc202d-16d3-4ba8-ae53-9928c3bba8a6, newStatus=REOPENED
+22:14:34.631 [Test worker] INFO com.strataresolve.notification.service.NotificationEventListener -- Created notification(s) for StatusChangedEvent: ticket=a4c986d8-0570-4a18-b22d-3ed8feac25d0, newStatus=ACKNOWLEDGED
+22:14:34.638 [Test worker] INFO com.strataresolve.notification.service.NotificationEventListener -- Created notification(s) for StatusChangedEvent: ticket=1b1aeee8-be5b-4d30-a2ec-8249824c9270, newStatus=ACKNOWLEDGED
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

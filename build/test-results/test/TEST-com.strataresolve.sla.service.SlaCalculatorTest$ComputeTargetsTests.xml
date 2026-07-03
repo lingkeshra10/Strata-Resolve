@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="computeTargets (direct computation)" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.004">
+  <properties/>
+  <testcase name="should compute correctly for different timezones" classname="com.strataresolve.sla.service.SlaCalculatorTest$ComputeTargetsTests" time="0.002"/>
+  <testcase name="should compute targets without policy lookup" classname="com.strataresolve.sla.service.SlaCalculatorTest$ComputeTargetsTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

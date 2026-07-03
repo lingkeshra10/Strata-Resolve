@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="getAllowedTransitions" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.007">
+  <properties/>
+  <testcase name="REJECTED has no allowed transitions" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$GetAllowedTransitions" time="0.002"/>
+  <testcase name="CANCELLED has no allowed transitions" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$GetAllowedTransitions" time="0.001"/>
+  <testcase name="null status returns empty set" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$GetAllowedTransitions" time="0.001"/>
+  <testcase name="IN_PROGRESS allows AWAITING_VENDOR, AWAITING_RESIDENT, READY_FOR_VERIFICATION, CANCELLED" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$GetAllowedTransitions" time="0.0"/>
+  <testcase name="SUBMITTED allows ACKNOWLEDGED, REJECTED, CANCELLED" classname="com.strataresolve.ticket.policy.StatusWorkflowEngineTest$GetAllowedTransitions" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

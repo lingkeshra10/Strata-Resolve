@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="create" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:36" hostname="LingkeshVerse.local" time="0.015">
+  <properties/>
+  <testcase name="should reject duplicate category/priority combination" classname="com.strataresolve.sla.service.SlaPolicyServiceTest$CreateTests" time="0.004"/>
+  <testcase name="should create a default SLA policy successfully" classname="com.strataresolve.sla.service.SlaPolicyServiceTest$CreateTests" time="0.004"/>
+  <testcase name="should reject creating a second default policy for the same property" classname="com.strataresolve.sla.service.SlaPolicyServiceTest$CreateTests" time="0.004"/>
+  <testcase name="should create a specific SLA policy successfully" classname="com.strataresolve.sla.service.SlaPolicyServiceTest$CreateTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

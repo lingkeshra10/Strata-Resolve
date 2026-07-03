@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StatusChangedEvent Publishing" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:38" hostname="LingkeshVerse.local" time="0.004">
+  <properties/>
+  <testcase name="should publish StatusChangedEvent after successful transition" classname="com.strataresolve.ticket.service.TicketServiceTransitionTest$EventPublishing" time="0.004"/>
+  <system-out><![CDATA[22:14:38.093 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket 4920bbd0-0ab9-4946-8cdc-e875f6cbdf2a transitioned from ACKNOWLEDGED to ASSIGNED by user 5bedcaf9-bd13-45eb-9285-389251bd590f
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

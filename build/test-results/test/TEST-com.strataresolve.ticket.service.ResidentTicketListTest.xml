@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TicketService - Resident Ticket List Data Scope" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:37" hostname="LingkeshVerse.local" time="0.192">
+  <properties/>
+  <testcase name="should exclude tickets from other residents and unrelated units" classname="com.strataresolve.ticket.service.ResidentTicketListTest" time="0.176"/>
+  <testcase name="should return only submitted tickets when resident has no linked unit" classname="com.strataresolve.ticket.service.ResidentTicketListTest" time="0.002"/>
+  <testcase name="should return only tickets submitted by resident or related to resident's unit" classname="com.strataresolve.ticket.service.ResidentTicketListTest" time="0.002"/>
+  <testcase name="should deduplicate unit IDs when resident has duplicate unit memberships" classname="com.strataresolve.ticket.service.ResidentTicketListTest" time="0.004"/>
+  <testcase name="should return empty list when resident has no tickets and no unit tickets" classname="com.strataresolve.ticket.service.ResidentTicketListTest" time="0.003"/>
+  <testcase name="should handle resident with multiple units across multiple memberships" classname="com.strataresolve.ticket.service.ResidentTicketListTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

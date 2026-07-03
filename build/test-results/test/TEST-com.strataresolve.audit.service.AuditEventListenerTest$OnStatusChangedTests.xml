@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="onStatusChanged" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:33" hostname="LingkeshVerse.local" time="0.027">
+  <properties/>
+  <testcase name="should include previous status in previous value" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnStatusChangedTests" time="0.006"/>
+  <testcase name="should include new status in new value" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnStatusChangedTests" time="0.005"/>
+  <testcase name="should create audit event with STATUS_CHANGED type" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnStatusChangedTests" time="0.004"/>
+  <testcase name="should include reason in new value when present" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnStatusChangedTests" time="0.003"/>
+  <testcase name="should not include reason key when reason is null" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnStatusChangedTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

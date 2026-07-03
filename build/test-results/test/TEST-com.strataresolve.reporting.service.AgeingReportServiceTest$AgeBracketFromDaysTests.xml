@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AgeBracket.fromDays" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:35" hostname="LingkeshVerse.local" time="0.151">
+  <properties/>
+  <testcase name="boundary: 3 days -&gt; ZERO_TO_THREE" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests" time="0.107"/>
+  <testcase name="boundary: 7 days -&gt; FOUR_TO_SEVEN" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests" time="0.002"/>
+  <testcase name="boundary: 30 days -&gt; FIFTEEN_TO_THIRTY" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests" time="0.003"/>
+  <testcase name="boundary: 14 days -&gt; EIGHT_TO_FOURTEEN" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests" time="0.002"/>
+  <testcase name="boundary: 365 days -&gt; OVER_THIRTY" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests" time="0.002"/>
+  <testcase name="boundary: 8 days -&gt; EIGHT_TO_FOURTEEN" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests" time="0.002"/>
+  <testcase name="boundary: 4 days -&gt; FOUR_TO_SEVEN" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests" time="0.003"/>
+  <testcase name="should throw for negative days" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests" time="0.005"/>
+  <testcase name="boundary: 0 days -&gt; ZERO_TO_THREE" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests" time="0.002"/>
+  <testcase name="boundary: 15 days -&gt; FIFTEEN_TO_THIRTY" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests" time="0.002"/>
+  <testcase name="boundary: 31 days -&gt; OVER_THIRTY" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

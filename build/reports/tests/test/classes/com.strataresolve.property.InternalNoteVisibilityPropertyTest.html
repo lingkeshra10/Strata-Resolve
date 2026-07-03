@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - InternalNoteVisibilityPropertyTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>InternalNoteVisibilityPropertyTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.strataresolve.property.html">com.strataresolve.property</a> &gt; InternalNoteVisibilityPropertyTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">4</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.296s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">internalNotesShouldBeVisibleToManagementAndStaff</td>
+<td class="success">0.081s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">internalNotesShouldNeverBeVisibleToResidents</td>
+<td class="success">0.098s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">managementAndStaffShouldBeAbleToCreateInternalNotes</td>
+<td class="success">0.075s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">residentsShouldNotBeAbleToCreateInternalNotes</td>
+<td class="success">0.042s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>timestamp = 2026-07-01T22:14:40.680717, InternalNoteVisibilityPropertyTest:internalNotesShouldNeverBeVisibleToResidents = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 16         | # of all combined edge cases
+edge-cases#tried = 16         | # of edge cases tried in current run
+seed = -4925901705211978690   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:40.763045, InternalNoteVisibilityPropertyTest:internalNotesShouldBeVisibleToManagementAndStaff = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 16         | # of all combined edge cases
+edge-cases#tried = 10         | # of edge cases tried in current run
+seed = -8075027708050393274   | random seed to reproduce generated values
+
+
+22:14:40.766 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 8c210071-15c4-4652-b89e-dea7b29ace52 by user 22bb4d5d-d9d0-4abb-8928-59131dacc9e2 with visibility INTERNAL
+22:14:40.767 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 7d88e83d-d5f0-40c9-809d-0927aa35ebb5 by user badcfdc6-3b40-49f7-9e12-d5b790115007 with visibility INTERNAL
+22:14:40.768 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 99e1d1fa-9665-4399-b486-ce4830cf0468 by user 073b0ef6-f734-4557-a9a9-d1f3e97c3a7c with visibility INTERNAL
+22:14:40.769 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket bd176b5d-ac84-4d6f-9f6e-8c282e74b477 by user 2a1cd405-f4b9-46b7-8c03-c19e62a14b81 with visibility INTERNAL
+22:14:40.769 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 1d5c98af-cb89-4a79-b97e-98f40721a0e1 by user f1ddfd74-b802-4766-883e-3ace70f71d6e with visibility INTERNAL
+22:14:40.770 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket ea4b6853-230d-4e93-8e47-ce693742828c by user 1d8ebea0-7781-4dcf-b135-8923bad61643 with visibility INTERNAL
+22:14:40.770 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 50180565-7fe7-4f94-8f6a-4ac3866b2e6e by user 6d043556-9311-4866-a831-af2e3da5e4d5 with visibility INTERNAL
+22:14:40.771 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 3b7e3279-2cb6-4495-a639-9d9654f51f90 by user ffdd41ee-b9c8-411c-9974-637d2f579c12 with visibility INTERNAL
+22:14:40.772 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket d78b6291-ec3e-4e39-bccf-91807e41c45c by user 05b20fb2-0dc3-4b79-bb4e-9a40ad1c417e with visibility INTERNAL
+22:14:40.773 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 88b1ad22-4eca-4334-ba45-f4b94df19776 by user db843bdc-b3a2-4351-b0b1-19982665196c with visibility INTERNAL
+22:14:40.773 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 3b60aec7-f38e-4993-8595-8b423b03e19b by user c35cfe48-ccbd-4271-94f0-347a63be3f3b with visibility INTERNAL
+22:14:40.774 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 1f1688e1-c763-42a5-a41d-137473aa6edb by user 0c72b608-d24a-4342-b5b3-84af88bd832e with visibility INTERNAL
+22:14:40.775 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 3c4c5b57-77fe-4976-a26a-488ca3769ec9 by user 648aebdb-4ce6-4f11-8c1f-43a51f39623d with visibility INTERNAL
+22:14:40.776 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 4c813d9c-2cd3-4e66-871e-7b66b4959738 by user 7a8991d9-bd33-4073-896e-e3b0356ac3b6 with visibility INTERNAL
+22:14:40.778 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket b7d7fb94-43a5-42fd-aafa-9e1890791db3 by user 00f5721a-e7fe-4402-802e-3e80f643cd03 with visibility INTERNAL
+22:14:40.779 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket c2547781-c000-46eb-96f3-e91d19da2156 by user 2bd75e7d-fb96-4d03-b337-27015c4a4b70 with visibility INTERNAL
+22:14:40.779 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 576d03d2-0494-4542-a5ab-0a102bc7153a by user ca9216a8-a0e1-4cb6-99be-098fe2aa338f with visibility INTERNAL
+22:14:40.780 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket c0305133-2183-4b2c-958e-ca8c03ff62c8 by user 0ebb1b8a-69fc-4750-bb81-c2d3e37403d7 with visibility INTERNAL
+22:14:40.781 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 1fa39f7d-a9c2-431e-9e6d-e82ec9feb79c by user 8c975d68-a8e3-48fb-bb27-ca0d6f74133c with visibility INTERNAL
+22:14:40.781 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket cfdf9791-9356-486f-af35-bad4a8dddebc by user 84e73773-bdea-4516-ac2e-464bae223a46 with visibility INTERNAL
+22:14:40.782 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket d494fed9-df42-4f11-a8a6-683776b31bdd by user 511d8f29-2dfb-4402-a2c2-900e6c8ce48f with visibility INTERNAL
+22:14:40.783 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket b5db5134-8eff-481b-891a-7b68d4dee84b by user a1ab4e16-4783-4303-9052-5f7aa1f3294f with visibility INTERNAL
+22:14:40.784 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 12452db0-d574-4f55-9196-4dfbd2c4f19d by user 8285e67e-0258-4140-ad71-ced549a2ab7e with visibility INTERNAL
+22:14:40.784 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 0e9371ac-0982-4d89-8522-09861fa68cda by user 3074e675-092c-438f-acc6-6218ea2065fb with visibility INTERNAL
+22:14:40.786 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 47ef4edf-d564-4941-9835-0af0bbc35861 by user 01cd07f8-9237-4026-b207-31627f2516ad with visibility INTERNAL
+22:14:40.786 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 30b4d747-cb70-4e06-87a1-ebdb0530b9c9 by user 4fa84ba0-0743-4bf7-b254-2b609e786f88 with visibility INTERNAL
+22:14:40.787 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket eeb52c45-d5b8-4049-aca9-57d08d8ed07c by user e323f2ac-c95b-4e7b-bf23-8f2207ca2b88 with visibility INTERNAL
+22:14:40.788 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 78047950-1586-498f-8c11-620c296cba9a by user dd7cd5a2-1dac-4527-b544-ffdda263d0fb with visibility INTERNAL
+22:14:40.788 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket a15b195b-4697-4341-9e6d-63364e338458 by user 94555fa4-77a2-4dec-8458-6b645cb25edd with visibility INTERNAL
+22:14:40.788 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket ad23d84b-6cfa-4da9-9fad-934bd6628a31 by user 632de48b-8ab6-4149-9c70-4a081fac2964 with visibility INTERNAL
+22:14:40.789 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 42bf84d4-0665-40d2-9344-e6688042865e by user 7420f166-bb6a-4569-93bb-6990c2a367a0 with visibility INTERNAL
+22:14:40.789 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket a057d735-da38-435e-97ea-113cc2ba32ce by user 17595648-41f7-425c-ac56-d2ff04e474af with visibility INTERNAL
+22:14:40.790 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket ded4cdd3-a18e-4960-94de-0a6f6c91145c by user 467a22fd-52d7-4f73-9da1-b870fd5b0b1b with visibility INTERNAL
+22:14:40.791 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 09c7bc79-5a17-4585-8afe-675a20a6adf8 by user 437305b3-1976-4236-9ff5-d98662f91c8a with visibility INTERNAL
+22:14:40.791 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 75ee1bf6-f01c-41e0-ba7b-b38c796d1778 by user 1e2e4ca0-c445-4734-93a1-e1d23697fd1c with visibility INTERNAL
+22:14:40.792 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket ab87e2d8-6d9e-4d60-9e45-b7f7728fc9ae by user e7dfc2db-eeaf-41e9-a8c9-6f63cf968cc2 with visibility INTERNAL
+22:14:40.793 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket f2dc659c-bf2d-454f-9383-9195aac11b88 by user ff985c17-e4c0-4e26-b9b4-f4384b2e42ec with visibility INTERNAL
+22:14:40.793 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 039bfe93-f6d5-4be7-94b6-49232dec1b17 by user f38ad46f-e868-4543-80de-1407b3723c01 with visibility INTERNAL
+22:14:40.794 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket a72e4523-d1ef-4ca2-b624-7b280cbc74f5 by user 265a031c-c6ac-43c2-8a4f-36b1448b339c with visibility INTERNAL
+22:14:40.794 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket d105adf2-2ff9-46d6-9538-b8cb9b8cb3a1 by user b73513df-42ce-449e-afc2-4d5b5283eb4e with visibility INTERNAL
+22:14:40.795 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket a562c4e7-f484-4d5f-b329-19bc3ed9213d by user 4ab16f13-6ad1-4ef5-b06c-45416da63f3d with visibility INTERNAL
+22:14:40.795 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket ff3d8dd1-0b0d-4ef1-a1d8-e665ca47d22c by user a0d73fb5-0ed7-4892-9df7-36751270f901 with visibility INTERNAL
+22:14:40.796 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 1c9faa0f-3a85-4f04-810f-0e55cc90eb46 by user 77e0cc2e-e4a0-46b4-ac27-1fbbb5943a62 with visibility INTERNAL
+22:14:40.797 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 4dd7afd3-12a8-425a-878b-01c9037bfb1b by user e25817be-fb04-4083-abdf-52164e649411 with visibility INTERNAL
+22:14:40.797 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket b63f481e-fa64-43ad-8808-bae86f586e1e by user a7e9fdb7-ba74-408f-8548-99cc71abc272 with visibility INTERNAL
+22:14:40.798 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket c37184aa-aaa2-4218-9b98-16006dc3cf80 by user f3de1687-3eb1-4551-a39f-66630284f328 with visibility INTERNAL
+22:14:40.798 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket ddfcc400-06e5-4e5c-ba61-6f245e4ff1f1 by user a6585a50-05a8-42d8-8a9a-6ac3dcdcee06 with visibility INTERNAL
+22:14:40.799 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 18f2ad63-e67b-4898-87f8-0fa9cae97afd by user 3fe35a62-acbb-4c90-ab55-1f7f4eb85a20 with visibility INTERNAL
+22:14:40.800 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 3065e618-942d-4a93-b247-81d283bf2ee5 by user f1270057-031c-41cb-914e-af8a1dcca590 with visibility INTERNAL
+22:14:40.800 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 1bd451dc-f01e-4581-aa79-960aacdeb886 by user f7c809c8-414e-4057-a4e8-4ab0d0ee4ae4 with visibility INTERNAL
+22:14:40.801 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket cce8e1bc-fb40-45bb-a5ab-271170f83928 by user 6f235c15-f178-413e-b3e7-199e8a4db7e5 with visibility INTERNAL
+22:14:40.802 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket db0ae0c0-90e4-4334-9392-3716bda12dd6 by user 7bfad31d-ea89-4388-9964-65d0cfca0773 with visibility INTERNAL
+22:14:40.802 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket fede04de-8208-4787-9ad9-70ef6fa3e823 by user fe54ba68-a64d-40e1-a2c5-e9d53279d173 with visibility INTERNAL
+22:14:40.803 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 4a595aad-f526-4a8b-ae23-9c9cee7922f2 by user 066cfef5-9d82-4834-95f2-afa73ce69ad9 with visibility INTERNAL
+22:14:40.803 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket bc3a47b0-dadd-4a74-9282-4f8e0baaaa4a by user f3668a99-7cef-4262-94f1-d57c5bfd5c14 with visibility INTERNAL
+22:14:40.804 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 8720a677-5140-4704-8f41-15f3bdb6f39e by user 8866ce30-51b1-4c03-b817-5043d4b2c1a0 with visibility INTERNAL
+22:14:40.804 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket f4e6a253-c1e6-4d48-bda3-21989ba00ab1 by user db7c0575-4179-461c-95a2-f18b984299af with visibility INTERNAL
+22:14:40.805 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 6a5208cb-d7f6-4cab-abd3-123d64967578 by user 7a7e382f-1c13-4275-b30e-d3cc36760535 with visibility INTERNAL
+22:14:40.806 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 88014022-5adb-40fc-8358-c3e166fad8ac by user 2f88aa86-c616-42f7-a247-b81ee0d90277 with visibility INTERNAL
+22:14:40.806 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 12a8f28e-2beb-4590-b9f8-e6f70b47b184 by user ee64f14b-1e49-44c3-8318-861726e593aa with visibility INTERNAL
+22:14:40.807 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 3835a3cc-eb8d-4b53-9f2c-676fa600fce7 by user 8e7f30db-3692-4a3a-b7da-cb368aabff44 with visibility INTERNAL
+22:14:40.807 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 3565c687-ff35-49f1-be78-139dc153c050 by user df7e4cf7-5bd5-40f4-9f1a-8842d43deb27 with visibility INTERNAL
+22:14:40.808 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 0785a0d6-f7a7-456a-8af9-b949363edd01 by user a4b93660-cd15-4373-8f92-68ca1964cf16 with visibility INTERNAL
+22:14:40.809 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket efba480d-df0d-45bb-b227-7c8518f64578 by user 4f75215f-ed4d-4000-a80b-e4c403d90186 with visibility INTERNAL
+22:14:40.810 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 920e30b7-0ed5-428f-a805-77a08b59c82a by user 0cad261e-bce4-471c-80a5-b1d87f86bd60 with visibility INTERNAL
+22:14:40.810 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 573beeb0-70ac-4126-8a7c-03dcea0efd85 by user 00e19bd0-f78f-4637-8381-a3c1d0e42e21 with visibility INTERNAL
+22:14:40.811 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket abe866ca-ac66-4394-a17e-96a43acb709f by user 2805c10a-7aea-4f64-b04c-c89dab27c187 with visibility INTERNAL
+22:14:40.811 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket a6f6755e-8eb8-4165-b748-97413b65fa1f by user 932d75b2-c159-4269-91c7-0423c23b0817 with visibility INTERNAL
+22:14:40.812 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket f8ea76c3-3320-4f5f-ad59-06460588cefa by user 785c8071-0071-459a-940c-9a3e99f02be8 with visibility INTERNAL
+22:14:40.812 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 9c1663e1-7c8b-4761-ab87-57decaea97e8 by user 1159c995-c24b-4f9b-8ddd-66c0f8491b5c with visibility INTERNAL
+22:14:40.812 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 598e6bb1-6ff4-4f70-bf53-d9ef07eb962b by user cb9d0aaf-9e44-4b3a-ba67-971482f1384a with visibility INTERNAL
+22:14:40.813 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket cfc49136-e7ee-4897-953c-0ce832beef22 by user 1743bd3b-1462-4f49-9f20-4e283805b159 with visibility INTERNAL
+22:14:40.813 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 81575fe0-01e9-4ac6-b757-935b7acd55b4 by user d7b34ff5-c082-4fab-b24e-d2b5043fae86 with visibility INTERNAL
+22:14:40.814 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 48a4f87b-502e-4a35-8d4f-5122fb2a4a4f by user 610c927d-7a0a-4191-a0a6-161b03b4982a with visibility INTERNAL
+22:14:40.814 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket c7c102dd-320c-4a20-93d1-013366d6685a by user da22cc36-4ba7-487e-81ed-1197dcc08d85 with visibility INTERNAL
+22:14:40.815 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 5bae722c-3a53-4224-8901-fa955602e196 by user 75804ecc-6957-4675-9aab-ff95987745f2 with visibility INTERNAL
+22:14:40.815 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket a58c944d-f0a2-4338-8300-58d7f8ab5e0b by user 5023378e-14b4-4e35-80f7-4c3be3a92654 with visibility INTERNAL
+22:14:40.816 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 760a3229-0a47-4c9f-bb16-82b1d13c0f0e by user b1bcf2d2-2379-4978-8607-78fd4dcfb67c with visibility INTERNAL
+22:14:40.817 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 722567c9-efca-4192-b086-9eb8015a891f by user 0aa5f8dd-76d0-4c14-895e-bfd0d04c58f8 with visibility INTERNAL
+22:14:40.818 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket ee5b0c8b-5c3b-4ac0-8324-96d5397c39e5 by user bd4c58a4-1817-4abf-b81f-cffa03dd06d6 with visibility INTERNAL
+22:14:40.819 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 1888d76e-5fc8-4d21-98e4-5dde882cc512 by user 075d321c-5918-4d61-8866-37b25abf8c85 with visibility INTERNAL
+22:14:40.820 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 928b91e1-ed91-4b32-8068-90b274bcbfca by user 2e8128bb-cadc-4c3c-9f72-649b04f4dd7c with visibility INTERNAL
+22:14:40.820 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 5c0b129e-4020-4302-87da-b1df9a41eb32 by user 009564c7-21b9-4164-a25a-e346dd2bfc91 with visibility INTERNAL
+22:14:40.821 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket e3fee023-6344-45ce-bf63-0f0233f594fd by user a81bf8bc-4b8b-48ae-9d5c-f087a4ba436f with visibility INTERNAL
+22:14:40.823 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 4d90db4b-b758-44b4-8209-83cc552cbce1 by user c9cf8bf4-c5fc-4f0e-b8b1-335b613edf7a with visibility INTERNAL
+22:14:40.824 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket b0b1bcb6-db32-4629-a6a6-fd6da5f08f3c by user a6295518-a9be-4561-8c8a-58738991fac9 with visibility INTERNAL
+22:14:40.826 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket a6381c69-7869-4834-84e5-00a4216c1e9d by user 23ba03bf-c885-41c2-81c3-9c56aa9eb1d0 with visibility INTERNAL
+22:14:40.827 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 657bdbc5-889b-48aa-88b1-69ab4fcd1b85 by user 4de64f13-bc87-400a-8f90-b3858df9f7e9 with visibility INTERNAL
+22:14:40.828 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 1daf7e8d-400a-4659-8adf-e935fee87dff by user c7426cd5-50e3-4069-a509-4a78cc2770da with visibility INTERNAL
+22:14:40.829 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 22630227-0f74-49ff-9204-8c849526aaab by user 07693ff9-ed69-4b4b-b750-405a9d6757d6 with visibility INTERNAL
+22:14:40.830 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 9d8f5372-b461-4f70-96f7-34d0fe828cb4 by user f80f7d44-3f07-4bd1-8229-baa3fb440f33 with visibility INTERNAL
+22:14:40.830 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 782b64d1-626a-4950-b0a7-696adcba20b9 by user c24940a5-f45e-433c-8159-44d3c8e649fb with visibility INTERNAL
+22:14:40.831 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 2832b581-8f9a-4e43-abed-c55bac1161eb by user 8b35fd1c-b018-47ae-9ed4-2f08603aa886 with visibility INTERNAL
+22:14:40.833 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 96c417a2-0a4b-4faa-9d11-8018676053b2 by user 12fafc41-4d1f-499f-9b5c-5f39348dcacc with visibility INTERNAL
+22:14:40.834 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket c803160f-bca8-4007-abe0-f103a8cc84fc by user a07d7beb-2b27-4215-a2b1-a28dbbf67e34 with visibility INTERNAL
+22:14:40.835 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 705bb28c-5429-4e22-805e-dabfdc8ec73a by user 93917a99-56cb-477f-873a-1aca0f5bb059 with visibility INTERNAL
+22:14:40.836 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 092ab7d2-9374-4924-af58-cde00a1a417a by user b7c9f616-1dd4-4ec5-912b-b1a96e95c926 with visibility INTERNAL
+22:14:40.837 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 7048b73d-79c4-4f61-9347-075e9cad4672 by user cdc744e0-339f-477a-a3bd-a23e2aafefea with visibility INTERNAL
+22:14:40.837 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket a33f82bf-191e-4687-8445-c5868dc2cfca by user 5a29b291-a4b3-4443-91e4-af225ca4bdc9 with visibility INTERNAL
+22:14:40.838 [Test worker] INFO com.strataresolve.ticket.service.CommentService -- Comment added to ticket 1f4c24c7-9576-4ab1-9175-ae8f2bd80640 by user 7cc8c755-4dfe-464c-a666-cf9ac7ac88f7 with visibility INTERNAL
+timestamp = 2026-07-01T22:14:40.839032, InternalNoteVisibilityPropertyTest:managementAndStaffShouldBeAbleToCreateInternalNotes = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 16         | # of all combined edge cases
+edge-cases#tried = 12         | # of edge cases tried in current run
+seed = -5897147341715636551   | random seed to reproduce generated values
+
+
+timestamp = 2026-07-01T22:14:40.881279, InternalNoteVisibilityPropertyTest:residentsShouldNotBeAbleToCreateInternalNotes = 
+                              |-----------------------jqwik-----------------------
+tries = 100                   | # of calls to property
+checks = 100                  | # of not rejected calls
+generation = RANDOMIZED       | parameters are randomly generated
+after-failure = SAMPLE_FIRST  | try previously failed sample, then previous seed
+when-fixed-seed = ALLOW       | fixing the random seed is allowed
+edge-cases#mode = MIXIN       | edge cases are mixed in
+edge-cases#total = 16         | # of all combined edge cases
+edge-cases#tried = 10         | # of edge cases tried in current run
+seed = 3302587832612052801    | random seed to reproduce generated values
+
+
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.10.2</a> at 1 Jul 2026, 10:14:42 pm</p>
+</div>
+</div>
+</body>
+</html>

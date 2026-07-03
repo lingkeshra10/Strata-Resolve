@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="changePriority" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:37" hostname="LingkeshVerse.local" time="0.027">
+  <properties/>
+  <testcase name="should reject when new priority is the same as current" classname="com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangePriorityTests" time="0.006"/>
+  <testcase name="should change priority and recalculate SLA targets" classname="com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangePriorityTests" time="0.006"/>
+  <testcase name="should change from EMERGENCY to LOW priority" classname="com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangePriorityTests" time="0.004"/>
+  <testcase name="should throw ResourceNotFoundException when ticket not found" classname="com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangePriorityTests" time="0.003"/>
+  <testcase name="should record priority change in status history with previous and new values" classname="com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangePriorityTests" time="0.003"/>
+  <testcase name="should publish PriorityChangedEvent on priority change" classname="com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangePriorityTests" time="0.004"/>
+  <system-out><![CDATA[22:14:37.939 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket 2eeb1bf1-48e6-4e87-bdb0-53690959890e priority changed from NORMAL to URGENT by user e9c58ac5-e568-4289-ba63-2e967be37be3
+22:14:37.942 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket b242386a-c8a6-4211-8299-d6b11c501de8 priority changed from EMERGENCY to LOW by user e15e1bec-baa4-4463-918f-1981f395d7d2
+22:14:37.949 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket dad3f540-f323-46e3-8d10-46dfe3596be8 priority changed from NORMAL to HIGH by user 46719eb6-19a1-4c91-abe3-a7228bc46326
+22:14:37.954 [Test worker] INFO com.strataresolve.ticket.service.TicketService -- Ticket cbbf0d07-341e-425b-a047-517072043565 priority changed from NORMAL to EMERGENCY by user bcfe1a77-a92f-433e-9d9f-d7546335add2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
