@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="onPriorityChanged" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:33" hostname="LingkeshVerse.local" time="0.017">
-  <properties/>
-  <testcase name="should include previous priority in previous value" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnPriorityChangedTests" time="0.008"/>
-  <testcase name="should create audit event with PRIORITY_CHANGED type" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnPriorityChangedTests" time="0.004"/>
-  <testcase name="should include new priority in new value" classname="com.strataresolve.audit.service.AuditEventListenerTest$OnPriorityChangedTests" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Filtering" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:35" hostname="LingkeshVerse.local" time="0.01">
-  <properties/>
-  <testcase name="should filter by category" classname="com.strataresolve.reporting.service.SlaReportServiceTest$FilteringTests" time="0.004"/>
-  <testcase name="should filter by date range" classname="com.strataresolve.reporting.service.SlaReportServiceTest$FilteringTests" time="0.003"/>
-  <testcase name="should filter by priority" classname="com.strataresolve.reporting.service.SlaReportServiceTest$FilteringTests" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

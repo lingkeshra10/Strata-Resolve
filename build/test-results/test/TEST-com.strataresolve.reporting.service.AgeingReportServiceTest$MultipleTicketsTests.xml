@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Multiple Tickets" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:35" hostname="LingkeshVerse.local" time="0.019">
-  <properties/>
-  <testcase name="should distribute multiple tickets across correct brackets" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$MultipleTicketsTests" time="0.009"/>
-  <testcase name="should only include open tickets and exclude terminal ones" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$MultipleTicketsTests" time="0.005"/>
-  <testcase name="should return all five brackets even when empty" classname="com.strataresolve.reporting.service.AgeingReportServiceTest$MultipleTicketsTests" time="0.004"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

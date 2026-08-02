@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0021841c-b001-4286-afbf-9053a355182a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest$CreateTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest$DeleteTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest$FindByPropertyIdTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest$ResolvePolicyTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest$UpdateTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$EdgeCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$ErrorMessages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$GetAllowedTransitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$InvalidTransitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$TerminalStatuses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$ValidTransitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/AssignmentServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/CommentServiceTest$GetCommentsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/CommentServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/DuplicateDetectionServiceTest$IsLocationMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/DuplicateDetectionServiceTest$LevenshteinDistanceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/DuplicateDetectionServiceTest$LinkDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/ReferenceNumberGeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/TicketReopenServiceTest$SuccessfulReopen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/TicketReopenServiceTest$TicketNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/TicketReopenServiceTest$TimeWindowRejection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/TicketServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/TicketServiceTransitionTest$AcknowledgeTransition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/TicketServiceTransitionTest$NonTimestampTransitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/TicketServiceTransitionTest$StatusHistoryRecording.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes 2/java/test/com/strataresolve/ticket/service/TicketSubmissionRateLimitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/StrataResolveApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/audit/controller/AuditController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/audit/domain/AuditEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/audit/dto/AuditEventResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/audit/repository/AuditEventRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/audit/service/AuditEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/audit/service/AuditQueryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/audit/service/AuditService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/notification/domain/DeliveryStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/notification/domain/Notification$NotificationBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/notification/domain/Notification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/notification/repository/NotificationRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/notification/service/EmailSendException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/notification/service/EmailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/notification/service/NotificationEventListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/notification/service/NotificationOutboxService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/notification/service/NotificationProcessorScheduler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/notification/service/SpringMailEmailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/controller/BlockController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/controller/PropertyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/controller/UnitController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/domain/Block$BlockBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/domain/Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/domain/OccupancyStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/domain/Property$PropertyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/domain/Property.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/domain/PropertyStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/domain/Unit$UnitBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/domain/Unit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/domain/UnitType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/dto/BlockResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/dto/CreateBlockRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/dto/CreatePropertyRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/dto/CreateUnitRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/dto/PropertyResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/dto/UnitResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/dto/UpdateBlockRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/dto/UpdatePropertyRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/dto/UpdateUnitRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/repository/BlockRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/repository/PropertyRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/repository/UnitRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/service/BlockService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/service/PropertyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/property/service/UnitService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/controller/ReportController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/dto/AgeBracket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/dto/AgeingBracketEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/dto/AgeingReportResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/dto/SlaComplianceReportResponse$CategoryBreakdown.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/dto/SlaComplianceReportResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/dto/VendorPerformanceReportResponse$VendorMetrics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/dto/VendorPerformanceReportResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/service/AgeingReportService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/service/CsvExportService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/service/SlaReportService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/reporting/service/VendorPerformanceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/config/JwtAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/config/RateLimitingFilter$RateLimitEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/config/RateLimitingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/event/AssignmentCreatedEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/event/DomainEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/event/DomainEventPublisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/event/PriorityChangedEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/event/PropertyConfigChangedEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/event/StatusChangedEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/event/TicketCreatedEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/event/WorkOrderAttachmentUploadedEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/AccessDeniedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/AuthenticationRequiredException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/BaseBusinessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/BusinessRuleViolationException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/DuplicateResourceException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/ErrorResponse$FieldError.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/ErrorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/InvalidTransitionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/PayloadTooLargeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/RateLimitExceededException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/TokenExpiredException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/exception/UnsupportedFileTypeException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/filestorage/FileMetadata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/filestorage/FileReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/filestorage/FileStorageException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/filestorage/FileStorageProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/filestorage/FileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/filestorage/LocalFileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/tenant/JdbcMembershipCheckRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/tenant/MembershipCheckRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/tenant/TenantAwareEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/tenant/TenantContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/tenant/TenantContextFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/shared/tenant/TenantFilterConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/sla/controller/SlaPolicyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/sla/domain/SlaPolicy$SlaPolicyBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/sla/domain/SlaPolicy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/sla/dto/CreateSlaPolicyRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/sla/dto/SlaPolicyResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/sla/dto/UpdateSlaPolicyRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/sla/repository/SlaPolicyRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/sla/service/SlaCalculator$SlaTargets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/sla/service/SlaCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/sla/service/SlaMonitorScheduler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/sla/service/SlaPolicyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/config/TicketModuleConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/config/TicketProperties$DuplicateDetection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/config/TicketProperties$RateLimitProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/config/TicketProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/controller/AssignmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/controller/AttachmentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/controller/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/controller/DuplicateController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/controller/TicketController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/ActivityType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/Assignment$AssignmentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/Assignment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/AssignmentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/Attachment$AttachmentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/Attachment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/Comment$CommentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/CommentVisibility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/Priority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/ReferenceNumberSequence.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/SlaStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/StatusHistory$StatusHistoryBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/StatusHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/Ticket$TicketBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/TicketDuplicateLink$TicketDuplicateLinkBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/TicketDuplicateLink.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/domain/TicketStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/ActivityEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/AssignmentResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/AttachmentResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/ChangeCategoryRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/ChangePriorityRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/CommentResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/CreateAssignmentRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/CreateCommentRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/CreateTicketRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/DuplicateDetectionResult$PotentialDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/DuplicateDetectionResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/DuplicateLinkResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/LinkDuplicateRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/ReopenTicketRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/TicketResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/dto/TransitionTicketStatusRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/policy/StatusWorkflowEngine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/repository/AssignmentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/repository/AttachmentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/repository/CommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/repository/ReferenceNumberRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/repository/StatusHistoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/repository/TicketDuplicateLinkRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/repository/TicketRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/service/ActivityHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/service/AssignmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/service/AttachmentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/service/DuplicateDetectionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/service/ReferenceNumberGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/ticket/service/TicketService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/controller/AuthController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/domain/Membership$MembershipBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/domain/Membership.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/domain/RefreshToken$RefreshTokenBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/domain/RefreshToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/domain/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/domain/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/CreateMembershipRequest$CreateMembershipRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/CreateMembershipRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/LoginRequest$LoginRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/MembershipResponse$MembershipResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/MembershipResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/RefreshRequest$RefreshRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/RefreshRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/RegisterRequest$RegisterRequestBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/RegisterRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/TokenResponse$TokenResponseBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/dto/TokenResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/repository/MembershipRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/repository/RefreshTokenRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/service/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/service/JwtService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/service/MembershipService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/user/service/RefreshTokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/controller/VendorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/controller/VendorDashboardController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/controller/WorkOrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/domain/Vendor$VendorBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/domain/Vendor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/domain/WorkOrder$WorkOrderBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/domain/WorkOrder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/domain/WorkOrderStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/dto/CreateVendorRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/dto/CreateWorkOrderRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/dto/UpdateVendorRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/dto/VendorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/dto/VendorTicketSummaryResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/dto/VendorWorkOrderResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/dto/WorkOrderResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/dto/WorkOrderTransitionRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/repository/VendorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/repository/WorkOrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/service/VendorDataScopeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/service/VendorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/service/WorkOrderService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/main/com/strataresolve/vendor/service/WorkOrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/IntegrationTestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/StrataResolveApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/audit/controller/AuditControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/audit/domain/AuditEventTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/audit/service/AuditEventListenerTest$OnAssignmentCreatedTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/audit/service/AuditEventListenerTest$OnPriorityChangedTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/audit/service/AuditEventListenerTest$OnPropertyConfigChangedTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/audit/service/AuditEventListenerTest$OnStatusChangedTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/audit/service/AuditEventListenerTest$OnTicketCreatedTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/audit/service/AuditEventListenerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/audit/service/AuditQueryServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/audit/service/AuditServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/notification/domain/NotificationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/notification/service/NotificationEventListenerTest$OnAssignmentCreatedTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/notification/service/NotificationEventListenerTest$OnStatusChangedTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/notification/service/NotificationEventListenerTest$OnTicketCreatedTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/notification/service/NotificationEventListenerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/notification/service/NotificationOutboxServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/notification/service/NotificationProcessorSchedulerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/notification/service/SpringMailEmailSenderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/ActivityHistoryPropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/AgeingReportBracketPlacementPropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/AuditEventCompletenessPropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/AuditImmutabilityPropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/DuplicateDetectionPropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/InternalNoteVisibilityPropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/ResidentDataScopePropertyTest$ResidentScenario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/ResidentDataScopePropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/SlaBreachDetectionPropertyTest$TicketScenario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/SlaBreachDetectionPropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/SlaPolicyFallbackPropertyTest$FallbackScenario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/SlaPolicyFallbackPropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/SlaTargetCalculationPropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/SubmissionRateLimitingPropertyTest$RateLimitConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/SubmissionRateLimitingPropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/VendorDataScopePropertyTest$VendorScenario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/VendorDataScopePropertyTest$VendorWithWorkOrderScenario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/property/VendorDataScopePropertyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/controller/ReportControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/AgeingReportServiceTest$AccessControlTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/AgeingReportServiceTest$AgeBracketFromDaysTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/AgeingReportServiceTest$AgeCalculationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/AgeingReportServiceTest$BracketPlacementTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/AgeingReportServiceTest$MultipleTicketsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/AgeingReportServiceTest$TerminalStatusFilteringTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/AgeingReportServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/CsvExportServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/SlaReportServiceTest$AcknowledgementComplianceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/SlaReportServiceTest$CategoryBreakdownTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/SlaReportServiceTest$ComplianceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/SlaReportServiceTest$FilteringTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/SlaReportServiceTest$ResolutionComplianceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/SlaReportServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/VendorPerformanceServiceTest$ReportGenerationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/reporting/service/VendorPerformanceServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/shared/exception/GlobalExceptionHandlerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/shared/filestorage/FileMetadataTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/shared/filestorage/LocalFileStorageServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/shared/tenant/TenantContextFilterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/shared/tenant/TenantContextTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaCalculatorTest$CalculateTargetsAtTimeTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaCalculatorTest$CalculateTargetsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaCalculatorTest$ComputeTargetsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaCalculatorTest$SlaTargetsRecordTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaCalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaMonitorSchedulerTest$DetectBreachesAtTimeTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaMonitorSchedulerTest$DetermineSlaStatusTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaMonitorSchedulerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest$CreateTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest$DeleteTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest$FindByPropertyIdTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest$ResolvePolicyTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest$UpdateTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/sla/service/SlaPolicyServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$EdgeCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$ErrorMessages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$GetAllowedTransitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$InvalidTransitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$TerminalStatuses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest$ValidTransitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/policy/StatusWorkflowEngineTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/ActivityHistoryServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/AssignmentServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/AttachmentServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/CommentServiceTest$AddCommentTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/CommentServiceTest$GetCommentsTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/CommentServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/DuplicateDetectionServiceTest$CalculateTitleSimilarity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/DuplicateDetectionServiceTest$CheckForDuplicates.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/DuplicateDetectionServiceTest$IsLocationMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/DuplicateDetectionServiceTest$LevenshteinDistanceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/DuplicateDetectionServiceTest$LinkDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/DuplicateDetectionServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/ReferenceNumberGeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/ResidentTicketListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketCategoryPriorityTest$ChangeCategoryTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketCategoryPriorityTest$ChangePriorityTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketCategoryPriorityTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketReopenServiceTest$InvalidStatusRejection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketReopenServiceTest$SuccessfulReopen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketReopenServiceTest$TicketNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketReopenServiceTest$TimeWindowRejection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketReopenServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketServiceTransitionTest$AcknowledgeTransition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketServiceTransitionTest$EventPublishing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketServiceTransitionTest$InvalidTransitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketServiceTransitionTest$NonTimestampTransitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketServiceTransitionTest$ReasonValidation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketServiceTransitionTest$ResolveTransition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketServiceTransitionTest$StatusHistoryRecording.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketServiceTransitionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/ticket/service/TicketSubmissionRateLimitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/user/service/AuthServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/user/service/MembershipServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/domain/WorkOrderStatusTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/service/VendorDataScopeServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/service/VendorServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/service/WorkOrderServiceTest$AcceptTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/service/WorkOrderServiceTest$CancelTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/service/WorkOrderServiceTest$CompleteTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/service/WorkOrderServiceTest$CreateTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/service/WorkOrderServiceTest$FindByVendorTechnicianTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/service/WorkOrderServiceTest$StartWorkTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/service/WorkOrderServiceTest$TransitionTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/service/WorkOrderServiceTest$UploadEvidenceTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/classes/java/test/com/strataresolve/vendor/service/WorkOrderServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/libs/strataresolve-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/libs/strataresolve-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/integrationTest/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/integrationTest/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/integrationTest/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/integrationTest/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.audit.controller.AuditControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.audit.domain.AuditEventTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.audit.service.AuditEventListenerTest$OnAssignmentCreatedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.audit.service.AuditEventListenerTest$OnPriorityChangedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.audit.service.AuditEventListenerTest$OnPropertyConfigChangedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.audit.service.AuditEventListenerTest$OnStatusChangedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.audit.service.AuditEventListenerTest$OnTicketCreatedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.audit.service.AuditQueryServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.audit.service.AuditServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.notification.domain.NotificationTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.notification.service.NotificationEventListenerTest$OnAssignmentCreatedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.notification.service.NotificationEventListenerTest$OnStatusChangedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.notification.service.NotificationEventListenerTest$OnTicketCreatedTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.notification.service.NotificationOutboxServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.notification.service.NotificationProcessorSchedulerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.notification.service.SpringMailEmailSenderTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.ActivityHistoryPropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.AgeingReportBracketPlacementPropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.AuditEventCompletenessPropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.AuditImmutabilityPropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.DuplicateDetectionPropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.InternalNoteVisibilityPropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.ResidentDataScopePropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.SlaBreachDetectionPropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.SlaPolicyFallbackPropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.SlaTargetCalculationPropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.SubmissionRateLimitingPropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.property.VendorDataScopePropertyTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.controller.ReportControllerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.AgeingReportServiceTest$AccessControlTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.AgeingReportServiceTest$AgeCalculationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.AgeingReportServiceTest$MultipleTicketsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.AgeingReportServiceTest$TerminalStatusFilteringTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.CsvExportServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.SlaReportServiceTest$AcknowledgementComplianceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.SlaReportServiceTest$CategoryBreakdownTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.SlaReportServiceTest$ComplianceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.SlaReportServiceTest$FilteringTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.SlaReportServiceTest$ResolutionComplianceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.reporting.service.VendorPerformanceServiceTest$ReportGenerationTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.shared.exception.GlobalExceptionHandlerTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.shared.filestorage.FileMetadataTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.shared.filestorage.LocalFileStorageServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.shared.tenant.TenantContextFilterTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.shared.tenant.TenantContextTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.sla.service.SlaCalculatorTest$CalculateTargetsAtTimeTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.sla.service.SlaCalculatorTest$CalculateTargetsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.sla.service.SlaCalculatorTest$ComputeTargetsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.sla.service.SlaCalculatorTest$SlaTargetsRecordTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.sla.service.SlaMonitorSchedulerTest$DetectBreachesAtTimeTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.sla.service.SlaMonitorSchedulerTest$DetermineSlaStatusTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.sla.service.SlaPolicyServiceTest$CreateTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.sla.service.SlaPolicyServiceTest$DeleteTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.sla.service.SlaPolicyServiceTest$FindByPropertyIdTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.sla.service.SlaPolicyServiceTest$ResolvePolicyTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.sla.service.SlaPolicyServiceTest$UpdateTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.policy.StatusWorkflowEngineTest$EdgeCases.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ErrorMessages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.policy.StatusWorkflowEngineTest$GetAllowedTransitions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.policy.StatusWorkflowEngineTest$InvalidTransitions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.policy.StatusWorkflowEngineTest$TerminalStatuses.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.ActivityHistoryServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.AssignmentServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.AttachmentServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.CommentServiceTest$AddCommentTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.CommentServiceTest$GetCommentsTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.DuplicateDetectionServiceTest$CalculateTitleSimilarity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.DuplicateDetectionServiceTest$CheckForDuplicates.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.DuplicateDetectionServiceTest$IsLocationMatch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.DuplicateDetectionServiceTest$LevenshteinDistanceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.DuplicateDetectionServiceTest$LinkDuplicate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.ReferenceNumberGeneratorTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.ResidentTicketListTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangeCategoryTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangePriorityTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketReopenServiceTest$InvalidStatusRejection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketReopenServiceTest$SuccessfulReopen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketReopenServiceTest$TicketNotFound.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketReopenServiceTest$TimeWindowRejection.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketServiceTransitionTest$AcknowledgeTransition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketServiceTransitionTest$EventPublishing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketServiceTransitionTest$InvalidTransitions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketServiceTransitionTest$NonTimestampTransitions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketServiceTransitionTest$ReasonValidation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketServiceTransitionTest$ResolveTransition.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketServiceTransitionTest$StatusHistoryRecording.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.ticket.service.TicketSubmissionRateLimitTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.user.service.AuthServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.user.service.MembershipServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.vendor.domain.WorkOrderStatusTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.vendor.service.VendorDataScopeServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.vendor.service.VendorServiceTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.vendor.service.WorkOrderServiceTest$AcceptTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.vendor.service.WorkOrderServiceTest$CancelTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.vendor.service.WorkOrderServiceTest$CompleteTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.vendor.service.WorkOrderServiceTest$CreateTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.vendor.service.WorkOrderServiceTest$FindByVendorTechnicianTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.vendor.service.WorkOrderServiceTest$StartWorkTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.vendor.service.WorkOrderServiceTest$TransitionTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/classes/com.strataresolve.vendor.service.WorkOrderServiceTest$UploadEvidenceTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.audit.controller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.audit.domain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.audit.service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.notification.domain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.notification.service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.property.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.reporting.controller.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.reporting.service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.shared.exception.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.shared.filestorage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.shared.tenant.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.sla.service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.ticket.policy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.ticket.service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.user.service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.vendor.domain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/reports/tests/test/packages/com.strataresolve.vendor.service.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resolvedMainClassName" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/db/migration/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/db/migration/V1__core_schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/db/migration/V2__refresh_tokens.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/db/migration/V3__duplicate_detection.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/resources/main/db/migration/V4__vendor_membership.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/integrationTest/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/integrationTest/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/integrationTest/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.audit.controller.AuditControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.audit.domain.AuditEventTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.audit.service.AuditEventListenerTest$OnAssignmentCreatedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.audit.service.AuditEventListenerTest$OnPriorityChangedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.audit.service.AuditEventListenerTest$OnPropertyConfigChangedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.audit.service.AuditEventListenerTest$OnStatusChangedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.audit.service.AuditEventListenerTest$OnTicketCreatedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.audit.service.AuditQueryServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.audit.service.AuditServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.notification.domain.NotificationTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.notification.service.NotificationEventListenerTest$OnAssignmentCreatedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.notification.service.NotificationEventListenerTest$OnStatusChangedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.notification.service.NotificationEventListenerTest$OnTicketCreatedTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.notification.service.NotificationOutboxServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.notification.service.NotificationProcessorSchedulerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.notification.service.SpringMailEmailSenderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.ActivityHistoryPropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.AgeingReportBracketPlacementPropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.AuditEventCompletenessPropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.AuditImmutabilityPropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.DuplicateDetectionPropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.InternalNoteVisibilityPropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.ResidentDataScopePropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.SlaBreachDetectionPropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.SlaPolicyFallbackPropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.SlaTargetCalculationPropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.SubmissionRateLimitingPropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.property.VendorDataScopePropertyTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.controller.ReportControllerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.AgeingReportServiceTest$AccessControlTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.AgeingReportServiceTest$AgeBracketFromDaysTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.AgeingReportServiceTest$AgeCalculationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.AgeingReportServiceTest$BracketPlacementTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.AgeingReportServiceTest$MultipleTicketsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.AgeingReportServiceTest$TerminalStatusFilteringTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.CsvExportServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.SlaReportServiceTest$AcknowledgementComplianceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.SlaReportServiceTest$CategoryBreakdownTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.SlaReportServiceTest$ComplianceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.SlaReportServiceTest$FilteringTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.SlaReportServiceTest$ResolutionComplianceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.reporting.service.VendorPerformanceServiceTest$ReportGenerationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.shared.exception.GlobalExceptionHandlerTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.shared.filestorage.FileMetadataTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.shared.filestorage.LocalFileStorageServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.shared.tenant.TenantContextFilterTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.shared.tenant.TenantContextTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.sla.service.SlaCalculatorTest$CalculateTargetsAtTimeTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.sla.service.SlaCalculatorTest$CalculateTargetsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.sla.service.SlaCalculatorTest$ComputeTargetsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.sla.service.SlaCalculatorTest$SlaTargetsRecordTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.sla.service.SlaMonitorSchedulerTest$DetectBreachesAtTimeTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.sla.service.SlaMonitorSchedulerTest$DetermineSlaStatusTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.sla.service.SlaPolicyServiceTest$CreateTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.sla.service.SlaPolicyServiceTest$DeleteTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.sla.service.SlaPolicyServiceTest$FindByPropertyIdTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.sla.service.SlaPolicyServiceTest$ResolvePolicyTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.sla.service.SlaPolicyServiceTest$UpdateTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.policy.StatusWorkflowEngineTest$EdgeCases.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ErrorMessages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.policy.StatusWorkflowEngineTest$GetAllowedTransitions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.policy.StatusWorkflowEngineTest$InvalidTransitions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.policy.StatusWorkflowEngineTest$TerminalStatuses.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.policy.StatusWorkflowEngineTest$ValidTransitions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.ActivityHistoryServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.AssignmentServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.AttachmentServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.CommentServiceTest$AddCommentTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.CommentServiceTest$GetCommentsTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.DuplicateDetectionServiceTest$CalculateTitleSimilarity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.DuplicateDetectionServiceTest$CheckForDuplicates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.DuplicateDetectionServiceTest$IsLocationMatch.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.DuplicateDetectionServiceTest$LevenshteinDistanceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.DuplicateDetectionServiceTest$LinkDuplicate.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.ReferenceNumberGeneratorTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.ResidentTicketListTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangeCategoryTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketCategoryPriorityTest$ChangePriorityTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketReopenServiceTest$InvalidStatusRejection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketReopenServiceTest$SuccessfulReopen.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketReopenServiceTest$TicketNotFound.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketReopenServiceTest$TimeWindowRejection.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketServiceTransitionTest$AcknowledgeTransition.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketServiceTransitionTest$EventPublishing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketServiceTransitionTest$InvalidTransitions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketServiceTransitionTest$NonTimestampTransitions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketServiceTransitionTest$ReasonValidation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketServiceTransitionTest$ResolveTransition.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketServiceTransitionTest$StatusHistoryRecording.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.ticket.service.TicketSubmissionRateLimitTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.user.service.AuthServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.user.service.MembershipServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.vendor.domain.WorkOrderStatusTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.vendor.service.VendorDataScopeServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.vendor.service.VendorServiceTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.vendor.service.WorkOrderServiceTest$AcceptTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.vendor.service.WorkOrderServiceTest$CancelTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.vendor.service.WorkOrderServiceTest$CompleteTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.vendor.service.WorkOrderServiceTest$CreateTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.vendor.service.WorkOrderServiceTest$FindByVendorTechnicianTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.vendor.service.WorkOrderServiceTest$StartWorkTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.vendor.service.WorkOrderServiceTest$TransitionTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/TEST-com.strataresolve.vendor.service.WorkOrderServiceTest$UploadEvidenceTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/lingkeshrarajendram/Documents/GitHub/Strata-Resolve/backend" value="3HMZI5gvigiHPe2pgbwQ9t4Fm5a" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="3HMZI5gvigiHPe2pgbwQ9t4Fm5a" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.strataresolve [clean].executor": "Run",
+    "Maven.strataresolve [compile].executor": "Run",
+    "Maven.strataresolve [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/lingkeshrarajendram/Documents/GitHub/Strata-Resolve/backend"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0021841c-b001-4286-afbf-9053a355182a" name="Changes" comment="" />
+      <created>1785679814809</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785679814809</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

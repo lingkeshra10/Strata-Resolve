@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Time Window Rejection" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-07-01T14:14:37" hostname="LingkeshVerse.local" time="0.007">
-  <properties/>
-  <testcase name="should reject reopen of RESOLVED ticket when time window has expired" classname="com.strataresolve.ticket.service.TicketReopenServiceTest$TimeWindowRejection" time="0.003"/>
-  <testcase name="should reject reopen when time window has expired" classname="com.strataresolve.ticket.service.TicketReopenServiceTest$TimeWindowRejection" time="0.003"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
