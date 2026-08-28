@@ -5,23 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ebd59ed-3c99-4368-b4ae-7ceb01c578b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/strataresolve/notification/client/IdentityServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/strataresolve/notification/domain/DeliveryStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/strataresolve/notification/domain/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/strataresolve/notification/model/NotificationRecipient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/strataresolve/notification/repository/NotificationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/strataresolve/notification/service/EmailSendException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/strataresolve/notification/service/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/strataresolve/notification/service/NotificationEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/strataresolve/notification/service/NotificationOutboxService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/strataresolve/notification/service/NotificationProcessorScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/java/com/strataresolve/notification/service/SpringMailEmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/main/resources/db/migration/V1__notification_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/test/java/com/strataresolve/notification/domain/NotificationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/test/java/com/strataresolve/notification/service/NotificationEventListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/test/java/com/strataresolve/notification/service/NotificationOutboxServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/test/java/com/strataresolve/notification/service/NotificationProcessorSchedulerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notification-service/src/test/java/com/strataresolve/notification/service/SpringMailEmailSenderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/controller/BlockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/controller/PropertyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/controller/UnitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/domain/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/domain/OccupancyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/domain/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/domain/PropertyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/domain/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/domain/UnitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/dto/BlockResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/dto/CreateBlockRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/dto/CreatePropertyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/dto/CreateUnitRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/dto/PropertyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/dto/UnitResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/dto/UpdateBlockRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/dto/UpdatePropertyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/dto/UpdateUnitRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/repository/BlockRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/repository/PropertyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/repository/UnitRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/service/BlockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/service/PropertyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/java/com/example/property/service/UnitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/property-service/src/main/resources/db/migration/V1__property_schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -49,7 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/notificationService",
+    "git-widget-placeholder": "feature/propertyService",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/lingkeshrarajendram/Documents/GitHub/Strata-Resolve"
   }
