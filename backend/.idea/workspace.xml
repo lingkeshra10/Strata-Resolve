@@ -5,85 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0021841c-b001-4286-afbf-9053a355182a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../backend-lib/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/.idea/backend-lib.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/event/AssignmentCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/event/DomainEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/event/DomainEventPublisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/event/PriorityChangedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/event/PropertyConfigChangedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/event/StatusChangedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/event/TicketCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/event/WorkOrderAttachmentUploadedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/AccessDeniedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/AuthenticationRequiredException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/BaseBusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/BusinessRuleViolationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/DuplicateResourceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/InvalidTransitionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/PayloadTooLargeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/RateLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/TokenExpiredException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/exception/UnsupportedFileTypeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/filestorage/FileMetadata.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/filestorage/FileReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/filestorage/FileStorageException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/filestorage/FileStorageProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/filestorage/FileStorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/security/AuthenticatedUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/security/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/security/JwtTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/security/SecurityConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/security/SecurityUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/security/ratelimit/InMemoryRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/security/ratelimit/RateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/security/ratelimit/RateLimitingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/tenant/MembershipCheckRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/tenant/TenantAwareEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/tenant/TenantContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/tenant/TenantContextFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../backend-lib/strataresolve-common/src/main/java/com/strataresolve/common/tenant/TenantFilterConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/domain/Membership.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/domain/RefreshToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/domain/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/dto/CreateMembershipRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/dto/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/dto/MembershipResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/dto/RefreshRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/dto/RegisterRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/dto/TokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/repository/MembershipRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/repository/RefreshTokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/service/AuthService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/service/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/service/MembershipService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/main/java/com/strataresolve/identity/service/RefreshTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/test/java/com/strataresolve/identity/AuthServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../identity-service/src/test/java/com/strataresolve/identity/MembershipServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/main/java/com/strataresolve/audit/controller/AuditController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/main/java/com/strataresolve/audit/domain/AuditEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/main/java/com/strataresolve/audit/dto/AuditEventResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/main/java/com/strataresolve/audit/repository/AuditEventRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/main/java/com/strataresolve/audit/service/AuditEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/main/java/com/strataresolve/audit/service/AuditQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/main/java/com/strataresolve/audit/service/AuditService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/test/java/com/strataresolve/audit/controller/AuditControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/test/java/com/strataresolve/audit/domain/AuditEventTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/test/java/com/strataresolve/audit/service/AuditEventListenerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/test/java/com/strataresolve/audit/service/AuditQueryServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../strata-resolve-audit/src/test/java/com/strataresolve/audit/service/AuditServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/java/com/strataresolve/notification/client/IdentityServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/java/com/strataresolve/notification/domain/DeliveryStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/java/com/strataresolve/notification/domain/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/java/com/strataresolve/notification/model/NotificationRecipient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/java/com/strataresolve/notification/repository/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/java/com/strataresolve/notification/service/EmailSendException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/java/com/strataresolve/notification/service/EmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/java/com/strataresolve/notification/service/NotificationEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/java/com/strataresolve/notification/service/NotificationOutboxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/java/com/strataresolve/notification/service/NotificationProcessorScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/java/com/strataresolve/notification/service/SpringMailEmailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/main/resources/db/migration/V1__notification_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/test/java/com/strataresolve/notification/domain/NotificationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/test/java/com/strataresolve/notification/service/NotificationEventListenerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/test/java/com/strataresolve/notification/service/NotificationOutboxServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/test/java/com/strataresolve/notification/service/NotificationProcessorSchedulerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../notification-service/src/test/java/com/strataresolve/notification/service/SpringMailEmailSenderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -115,17 +53,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.strataresolve [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.strataresolve [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.strataresolve [install].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lingkeshrarajendram/Documents/GitHub/Strata-Resolve/backend&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.strataresolve [clean].executor": "Run",
+    "Maven.strataresolve [compile].executor": "Run",
+    "Maven.strataresolve [install].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/notificationService",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/lingkeshrarajendram/Documents/GitHub/Strata-Resolve/backend"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
